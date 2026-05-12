@@ -194,12 +194,34 @@ WebSearch calls mid-trace whenever they need a specific fact to sharpen a scene.
 After grilling and Intelligence Briefing are complete, **Doctor Strange opens the portals.**
 
 This means:
-1. **Identify 2–4 distinct universe branches** based on the key fork variables from the
-   Intelligence Briefing's "Live Tensions" section. Name each universe vividly and
-   specifically — not "good outcome / bad outcome" but the actual divergence point. Examples:
-   - 🌀 Universe A: Earnings beat + Trump visit delivers concrete tech agreements
-   - 🌀 Universe B: Earnings in-line + summit statement is all diplomatic boilerplate
-   - 🌀 Universe C: Earnings miss, all good news already priced in
+1. **Exhaustively enumerate all distinct universe branches.** Do not start from a fixed
+   count. Instead:
+
+   a. List every **fork variable** surfaced in the Intelligence Briefing's "Live Tensions"
+      section — these are the specific conditions that could resolve differently and lead to
+      meaningfully different futures.
+
+   b. Map the **meaningful combinations** of these forks. Not a full Cartesian product —
+      skip combinations that are logically impossible or would produce essentially the same
+      lived experience as an existing universe. Keep every combination that leads to a
+      genuinely different trajectory.
+
+   c. **The test for "distinct"**: two universes are distinct only if a person living through
+      them would face different decisions, different emotional moments, and arrive at
+      materially different outcomes. If a new universe would merely shade an existing one —
+      same arc, slightly different numbers — merge it in or drop it.
+
+   d. Name each universe vividly and specifically — not "good/bad" but the actual divergence
+      conditions. Examples:
+      - 🌀 Universe A: Earnings beat + Trump visit delivers concrete tech agreements
+      - 🌀 Universe B: Earnings in-line + summit statement is all diplomatic boilerplate
+      - 🌀 Universe C: Earnings miss, all good news already priced in
+      - 🌀 Universe D: Earnings beat but regulatory action announced same week
+
+   e. Before opening portals, **show the user the full universe list** with a one-line
+      divergence condition for each. State the count: "I've identified N distinct universes
+      that exhaust the meaningful branches of this scenario." Let the user add, merge, or
+      drop any before proceeding.
 
 2. **Open all portals simultaneously** — spawn every Universe subagent in a single parallel
    message (multiple Agent tool calls in one shot). Each subagent receives the full
