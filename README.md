@@ -55,3 +55,7 @@ Then symlink or copy the specific skill directory you want to install into `~/.a
 ln -s /path/to/skills/skills/productivity/doctor-strange ~/.agents/skills/doctor-strange
 ln -s /path/to/skills/skills/productivity/doctor-strange ~/.claude/skills/doctor-strange
 ```
+
+## License
+
+[MIT](LICENSE)
