@@ -4,6 +4,8 @@ A personal library of Claude Code skills — installable prompt extensions that 
 
 ## Categories
 
+- **[AIGC](skills/aigc/README.md)** — AI-generated content tools.
+- **[Health](skills/health/README.md)** — Health and wellness tools.
 - **[Productivity](skills/productivity/README.md)** — General workflow tools, not code-specific.
 
 ## Installing a skill
