@@ -1,4 +1,4 @@
-# Skills
+# Agentara's Skills
 
 A personal library of Claude Code skills — installable prompt extensions that give Claude Code new capabilities.
 
