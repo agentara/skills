@@ -27,6 +27,7 @@ Health and wellness tools for triage and report interpretation.
 
 General workflow tools, not code-specific.
 
+- **[article-to-html](skills/productivity/article-to-html/SKILL.md)** — Render markdown drafts or conversation documents into self-contained paper-style HTML pages with inline CSS, SVG figures, callouts, tables, and optional interactivity.
 - **[doctor-strange](skills/productivity/doctor-strange/SKILL.md)** — Simulate how future scenarios might unfold, store the projections as memory, and recall them later as soft priors.
 
 ## Installing a Skill

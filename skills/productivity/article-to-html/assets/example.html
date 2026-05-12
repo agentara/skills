@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新基建提案 · Centralized Agent + Dynamic Sandbox</title>
+    <style>
+      :root {
+        --paper: #f7f7f5;
+        --paper-edge: #efefea;
+        --ink: #1a1a1a;
+        --ink-soft: #4a4a4a;
+        --ink-faint: #7a7a7a;
+        --rule: #d8d8d2;
+        --rule-soft: #e8e8e2;
+        --accent: #6f9bb8;
+        --accent-soft: #d9e6f0;
+        --accent-faint: #eef4f8;
+        --warn: #b88a4a;
+        --warn-soft: #f5ecdc;
+        --danger: #a05050;
+        --code-bg: #ececea;
+
+        --brain: #6f9bb8;
+        --brain-bg: #eef4f8;
+        --hands: #b88a4a;
+        --hands-bg: #f5ecdc;
+        --session: #6b7560;
+        --session-bg: #ecede5;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { font-size: 16px; }
+
+      body {
+        font-family: ui-serif, "Charter", "Iowan Old Style", "Source Serif Pro", Georgia, serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        padding: 64px 24px 96px;
+      }
+
+      .doc { max-width: 840px; margin: 0 auto; }
+
+      /* ─── Header ─── */
+      .doc-header {
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 28px;
+        margin-bottom: 48px;
+      }
+      .doc-eyebrow {
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        margin-bottom: 14px;
+      }
+      .doc-title {
+        font-family: ui-serif, Charter, Georgia, serif;
+        font-size: 34px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+      }
+      .doc-subtitle {
+        font-size: 16px;
+        color: var(--ink-soft);
+        margin-top: 10px;
+        font-style: italic;
+      }
+      .doc-meta {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 11px;
+        color: var(--ink-faint);
+        margin-top: 18px;
+        display: flex;
+        gap: 24px;
+      }
+
+      /* ─── TL;DR ─── */
+      .tldr {
+        background: var(--accent-faint);
+        border-left: 2px solid var(--accent);
+        padding: 20px 24px;
+        margin-bottom: 56px;
+        font-size: 15px;
+      }
+      .tldr-label {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+
+      /* ─── Sections ─── */
+      section { margin-bottom: 56px; }
+      h2 {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+        margin-bottom: 18px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--rule);
+      }
+      h2 .num {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 12px;
+        color: var(--ink-faint);
+        font-weight: 500;
+        margin-right: 14px;
+        letter-spacing: 0.05em;
+      }
+      h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 28px 0 10px;
+      }
+      p { margin-bottom: 14px; }
+      p + p { margin-top: -2px; }
+      a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+      a:hover { border-bottom-color: var(--accent); }
+      code {
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-size: 13px;
+        background: var(--code-bg);
+        padding: 1px 5px;
+        border-radius: 2px;
+      }
+      pre {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 12.5px;
+        line-height: 1.55;
+        background: var(--code-bg);
+        padding: 14px 18px;
+        margin: 14px 0 18px;
+        overflow-x: auto;
+        border-left: 2px solid var(--rule);
+      }
+      ul, ol { margin: 8px 0 16px 22px; }
+      li { margin-bottom: 6px; }
+      strong { font-weight: 600; }
+      em { color: var(--ink-soft); }
+
+      /* ─── Tables ─── */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 14px 0 18px;
+        font-size: 14px;
+      }
+      th, td {
+        text-align: left;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--rule-soft);
+        vertical-align: top;
+      }
+      th {
+        font-weight: 600;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--ink-faint);
+        border-bottom: 1px solid var(--rule);
+      }
+      tbody tr:hover { background: rgba(0,0,0,0.015); }
+      td.num { font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+      td.accent { color: var(--accent); font-weight: 500; }
+
+      /* ─── Callouts ─── */
+      .callout {
+        border: 1px solid var(--rule);
+        background: #fff;
+        padding: 16px 18px;
+        margin: 16px 0 20px;
+      }
+      .callout.warn {
+        border-color: #e6d4a8;
+        background: var(--warn-soft);
+      }
+      .callout.cite {
+        border-left: 2px solid var(--accent);
+        border-top: none; border-right: none; border-bottom: none;
+        background: var(--accent-faint);
+        padding-left: 22px;
+        font-style: italic;
+      }
+      .callout-label {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 10.5px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+      .callout.warn .callout-label { color: var(--warn); }
+      .cite-source {
+        font-style: normal;
+        font-size: 12px;
+        color: var(--ink-faint);
+        margin-top: 10px;
+        font-family: ui-monospace, Menlo, monospace;
+      }
+
+      /* ─── Figure / Diagram ─── */
+      figure {
+        margin: 28px 0 32px;
+        border: 1px solid var(--rule);
+        background: #fff;
+      }
+      figure svg { display: block; width: 100%; height: auto; }
+      figcaption {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        padding: 10px 16px;
+        border-top: 1px solid var(--rule-soft);
+        background: var(--paper-edge);
+      }
+      figcaption .fig-num {
+        color: var(--accent);
+        margin-right: 10px;
+        font-weight: 600;
+      }
+
+      /* ─── Three-Layer Cards ─── */
+      .three-layer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin: 20px 0 18px;
+      }
+      .layer {
+        border: 1px solid var(--rule);
+        background: #fff;
+        padding: 16px 16px 14px;
+      }
+      .layer-icon {
+        font-family: ui-monospace, Menlo, monospace;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+      .layer.brain .layer-icon { color: var(--brain); }
+      .layer.hands .layer-icon { color: var(--hands); }
+      .layer.session .layer-icon { color: var(--session); }
+      .layer-name {
+        font-family: ui-serif, Charter, Georgia, serif;
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .layer-where {
+        font-size: 12px;
+        color: var(--ink-faint);
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      .layer-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+
+      /* ─── Footer ─── */
+      footer {
+        margin-top: 80px;
+        padding-top: 24px;
+        border-top: 1px solid var(--rule);
+        font-size: 12px;
+        color: var(--ink-faint);
+      }
+      footer h4 {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-family: ui-monospace, Menlo, monospace;
+        margin-bottom: 10px;
+        color: var(--ink-soft);
+      }
+      footer ul { list-style: none; margin-left: 0; }
+      footer li { margin-bottom: 4px; }
+
+      .mascot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--accent);
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+
+      @media (max-width: 720px) {
+        body { padding: 32px 16px 64px; }
+        .doc-title { font-size: 26px; }
+        .three-layer { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="doc">
+
+      <!-- ────── Header ────── -->
+      <header class="doc-header">
+        <div class="doc-eyebrow"><span class="mascot"></span>Crewlet · 基建提案</div>
+        <h1 class="doc-title">中心化 Agent + 动态 Sandbox 架构</h1>
+        <p class="doc-subtitle">从 per-tenant VM 到 ephemeral compute · 让 onboarding 从分钟级降到秒级</p>
+        <div class="doc-meta">
+          <span>STATUS · DRAFT</span>
+          <span>DATE · 2026-05-11</span>
+          <span>AUTHOR · Engineering</span>
+        </div>
+      </header>
+
+      <!-- ────── TL;DR ────── -->
+      <div class="tldr">
+        <div class="tldr-label">TL;DR</div>
+        把 Crewlet 从"每个用户一台 Fly VM 装 agent + frontend + sandbox"的整体式架构，重构为
+        <strong>中心化 stateless agent</strong> +
+        <strong>按需启停的 sandbox service</strong> +
+        <strong>持久化共享存储</strong> 的三层解耦模型。
+        Onboarding 不再阻塞在 VM 配置上，免费用户零基建成本，付费用户拿到稳定私有环境。
+        Anthropic 在自己的 managed agents 实践中走的也是同一条路。
+      </div>
+
+      <!-- ──────────────────── Section 1 ──────────────────── -->
+      <section>
+        <h2><span class="num">01</span>当前架构的问题</h2>
+
+        <p>
+          现在每接入一个新用户，都要在 Fly.io 上配一台 VM，里面装着 agent loop、tenant 前端、所有持久化状态。
+          这套结构把<strong>前端、agent、工具执行、持久化</strong>四种关注点强行打包在一个进程里，
+          任何一层的故障会击穿整层。更要命的是它<strong>把 onboarding 流程拉长到了无法接受的程度</strong>——
+          用户注册到第一次看到 Crewlet 的价值之间，隔着一次基建配置。
+        </p>
+
+        <!-- FIG 1 — Current monolithic VM -->
+        <figure>
+          <svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" font-size="12">
+            <!-- background -->
+            <rect width="760" height="360" fill="#fff"/>
+
+            <!-- User -->
+            <g transform="translate(40, 150)">
+              <circle cx="20" cy="20" r="18" fill="none" stroke="#4a4a4a" stroke-width="1.2"/>
+              <text x="20" y="60" text-anchor="middle" fill="#4a4a4a" font-size="11">User A</text>
+            </g>
+            <g transform="translate(40, 240)">
+              <circle cx="20" cy="20" r="18" fill="none" stroke="#4a4a4a" stroke-width="1.2"/>
+              <text x="20" y="60" text-anchor="middle" fill="#4a4a4a" font-size="11">User B</text>
+            </g>
+
+            <!-- VM A -->
+            <g>
+              <rect x="160" y="40" width="280" height="130" fill="#fafaf8" stroke="#c0baa0" stroke-width="1.2"/>
+              <text x="172" y="58" fill="#7a6420" font-weight="600" font-size="11" letter-spacing="0.1em">FLY VM · TENANT A</text>
+              <rect x="172" y="68" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="82" fill="#4a4a4a">tenant-web (Frontend)</text>
+              <rect x="172" y="92" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="106" fill="#4a4a4a">apps/crewlet · Agent Loop + WS</text>
+              <rect x="172" y="116" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="130" fill="#4a4a4a">Plugins · Tools · Shell exec</text>
+              <rect x="172" y="140" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="154" fill="#4a4a4a">Session · Memory · Skills · Cron</text>
+            </g>
+
+            <!-- VM B (clone) -->
+            <g>
+              <rect x="160" y="200" width="280" height="130" fill="#fafaf8" stroke="#c0baa0" stroke-width="1.2"/>
+              <text x="172" y="218" fill="#7a6420" font-weight="600" font-size="11" letter-spacing="0.1em">FLY VM · TENANT B</text>
+              <rect x="172" y="228" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="242" fill="#4a4a4a">tenant-web (Frontend)</text>
+              <rect x="172" y="252" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="266" fill="#4a4a4a">apps/crewlet · Agent Loop + WS</text>
+              <rect x="172" y="276" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="290" fill="#4a4a4a">Plugins · Tools · Shell exec</text>
+              <rect x="172" y="300" width="256" height="22" fill="#f0ede5" stroke="#d6cfb8"/>
+              <text x="178" y="314" fill="#4a4a4a">Session · Memory · Skills · Cron</text>
+            </g>
+
+            <!-- Console API -->
+            <g>
+              <rect x="500" y="120" width="220" height="130" fill="#fff" stroke="#a05050" stroke-width="1.2"/>
+              <text x="510" y="138" fill="#a05050" font-weight="600" font-size="11" letter-spacing="0.1em">CONSOLE-API · 工作区控制面</text>
+              <rect x="510" y="150" width="200" height="22" fill="#f5e8e4" stroke="#d4a8a8"/>
+              <text x="516" y="164" fill="#4a4a4a">Credential Proxy</text>
+              <text x="516" y="186" fill="#7a7a7a" font-size="10.5">(因为 Fly VM 不可信)</text>
+              <rect x="510" y="200" width="200" height="22" fill="#f5e8e4" stroke="#d4a8a8"/>
+              <text x="516" y="214" fill="#4a4a4a">Workspaces · OAuth · Billing</text>
+            </g>
+
+            <!-- arrows -->
+            <g stroke="#7a7a7a" stroke-width="1" fill="none">
+              <path d="M 80 170 L 158 100" marker-end="url(#arrowGray)"/>
+              <path d="M 80 260 L 158 260" marker-end="url(#arrowGray)"/>
+              <path d="M 440 100 L 510 160" marker-end="url(#arrowGray)" stroke-dasharray="3 3"/>
+              <path d="M 440 260 L 510 200" marker-end="url(#arrowGray)" stroke-dasharray="3 3"/>
+            </g>
+
+            <defs>
+              <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a7a7a"/>
+              </marker>
+            </defs>
+          </svg>
+          <figcaption><span class="fig-num">FIG 1</span>当前架构 · 每用户一台 VM，前端 / agent / 工具 / 持久化全部打包</figcaption>
+        </figure>
+
+        <ul>
+          <li><strong>Onboarding 阻塞在 VM 配置上</strong>。用户注册之后要等 Fly machine 拉起、镜像 pull、初始化跑完，时间从几十秒到几分钟。免费用户大概率已经走了。</li>
+          <li><strong>免费用户也烧钱</strong>。哪怕用户只来用 5 分钟，VM 仍在那耗资源。</li>
+          <li><strong>故障爆炸半径大</strong>。VM 崩溃 = 用户的会话、记忆、产物全丢。</li>
+          <li><strong>OAuth token 在不可信环境里</strong>。今天得用 console-api 的 credential proxy 来绕开，代码复杂、踩过多次坑。</li>
+          <li><strong>无法独立伸缩</strong>。前端流量大 ≠ agent 负载大，但今天它们绑死在同一台机器上。</li>
+        </ul>
+      </section>
+
+      <!-- ──────────────────── Section 2 ──────────────────── -->
+      <section>
+        <h2><span class="num">02</span>Anthropic 的范式 · Brain · Hands · Session</h2>
+
+        <p>
+          Anthropic 在他们自己的 Claude managed agents 平台上踩过完全一样的坑：单容器把一切打包在一起，
+          故障即灾难、调试不可能、每个 session 都吃完整的初始化成本。他们的总结值得直接抄。
+        </p>
+
+        <div class="callout cite">
+          "If a container failed, the session was lost. Failures became catastrophic.
+          Every session paid full initialization costs upfront."
+          <div class="cite-source">— Anthropic Engineering · Managed Agents</div>
+        </div>
+
+        <p>
+          他们的解法是把 agent 基建解耦成三个独立抽象——
+          <strong>Brain</strong>（agent + harness，stateless，可随时唤醒）、
+          <strong>Hands</strong>（sandbox/工具，作为通用 <code>execute(name, input)</code> 接口）、
+          <strong>Session</strong>（durable 事件日志，活在 Claude context window 之外）。
+          三层之间不互相假设对方的存在位置。
+        </p>
+
+        <p>
+          关键收益：移除强制 container 初始化之后，
+          <strong>time-to-first-token 提升 ~60% (p50)、90%+ (p95)</strong>。这跟我们 onboarding 的痛点直接对应。
+        </p>
+
+        <div class="three-layer">
+          <div class="layer brain">
+            <div class="layer-icon">BRAIN</div>
+            <div class="layer-name">Agent</div>
+            <div class="layer-where">→ 中心化部署</div>
+            <div class="layer-desc">Stateless agent loop。所有用户共用同一集群。崩了直接 wake(sessionId) 续上。</div>
+          </div>
+          <div class="layer hands">
+            <div class="layer-icon">HANDS</div>
+            <div class="layer-name">Sandbox</div>
+            <div class="layer-where">→ Sandbox Service · 按需</div>
+            <div class="layer-desc">Ephemeral compute。Cattle, not pets。session 完了即销毁，下次重建。</div>
+          </div>
+          <div class="layer session">
+            <div class="layer-icon">SESSION</div>
+            <div class="layer-name">Persistent State</div>
+            <div class="layer-where">→ Postgres + Shared Storage</div>
+            <div class="layer-desc">结构化数据进 Postgres，agent 工作 fs 进共享存储。活在 sandbox 之外。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ──────────────────── Section 3 ──────────────────── -->
+      <section>
+        <h2><span class="num">03</span>新架构 · 三层解耦</h2>
+
+        <!-- FIG 2 — New three-layer architecture -->
+        <figure>
+          <svg viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" font-size="12">
+            <rect width="760" height="460" fill="#fff"/>
+
+            <!-- USERS -->
+            <g>
+              <circle cx="60" cy="80" r="14" fill="none" stroke="#4a4a4a" stroke-width="1.2"/>
+              <circle cx="60" cy="130" r="14" fill="none" stroke="#4a4a4a" stroke-width="1.2"/>
+              <circle cx="60" cy="180" r="14" fill="none" stroke="#4a4a4a" stroke-width="1.2"/>
+              <text x="60" y="210" text-anchor="middle" fill="#7a7a7a" font-size="10">Users</text>
+            </g>
+
+            <!-- FRONTEND -->
+            <g>
+              <rect x="140" y="60" width="160" height="140" fill="#fff" stroke="#6f9bb8" stroke-width="1.2"/>
+              <text x="148" y="80" fill="#6f9bb8" font-weight="600" letter-spacing="0.1em" font-size="11">FRONTEND</text>
+              <text x="148" y="100" fill="#7a7a7a" font-size="10.5" font-style="italic">→ Vercel / CF Pages</text>
+              <rect x="148" y="115" width="144" height="22" fill="#eef4f8" stroke="#d9e6f0"/>
+              <text x="155" y="130" fill="#4a4a4a">app.crewlet.dev</text>
+              <rect x="148" y="143" width="144" height="22" fill="#eef4f8" stroke="#d9e6f0"/>
+              <text x="155" y="158" fill="#4a4a4a">/content (Tier 1)</text>
+              <rect x="148" y="171" width="144" height="22" fill="#eef4f8" stroke="#d9e6f0"/>
+              <text x="155" y="186" fill="#4a4a4a">/workspace (Tier 2)</text>
+            </g>
+
+            <!-- BRAIN -->
+            <g>
+              <rect x="340" y="60" width="180" height="140" fill="#eef4f8" stroke="#6f9bb8" stroke-width="1.5"/>
+              <text x="348" y="80" fill="#6f9bb8" font-weight="600" letter-spacing="0.1em" font-size="11">BRAIN · AGENT SERVICE</text>
+              <text x="348" y="100" fill="#7a7a7a" font-size="10.5" font-style="italic">→ Stateless cluster</text>
+              <rect x="348" y="115" width="164" height="22" fill="#fff" stroke="#a5c0d8"/>
+              <text x="355" y="130" fill="#4a4a4a">Agent loop (streamText)</text>
+              <rect x="348" y="143" width="164" height="22" fill="#fff" stroke="#a5c0d8"/>
+              <text x="355" y="158" fill="#4a4a4a">Tool registry · LLM call</text>
+              <rect x="348" y="171" width="164" height="22" fill="#fff" stroke="#a5c0d8"/>
+              <text x="355" y="186" fill="#4a4a4a">OAuth · External APIs</text>
+            </g>
+
+            <!-- HANDS / SANDBOX SERVICE -->
+            <g>
+              <rect x="560" y="60" width="160" height="140" fill="#f5ecdc" stroke="#b88a4a" stroke-width="1.5"/>
+              <text x="568" y="80" fill="#7a6420" font-weight="600" letter-spacing="0.1em" font-size="11">HANDS · SANDBOX</text>
+              <text x="568" y="100" fill="#7a7a7a" font-size="10.5" font-style="italic">→ Sandbox Service</text>
+              <rect x="568" y="115" width="144" height="22" fill="#fff" stroke="#d8c890"/>
+              <text x="575" y="130" fill="#4a4a4a">Sandbox · Tenant X</text>
+              <rect x="568" y="143" width="144" height="22" fill="#fff" stroke="#d8c890"/>
+              <text x="575" y="158" fill="#4a4a4a">Sandbox · Tenant Y</text>
+              <rect x="568" y="171" width="144" height="22" fill="#fff" stroke="#d8c890" stroke-dasharray="3 3"/>
+              <text x="575" y="186" fill="#7a7a7a" font-style="italic">on-demand spin-up</text>
+            </g>
+
+            <!-- SESSION LAYER (Postgres + Shared Storage) -->
+            <g>
+              <rect x="140" y="260" width="580" height="140" fill="#ecede5" stroke="#6b7560" stroke-width="1.5"/>
+              <text x="148" y="280" fill="#5a5a3a" font-weight="600" letter-spacing="0.1em" font-size="11">SESSION · PERSISTENT STATE</text>
+              <text x="148" y="298" fill="#7a7a7a" font-size="10.5" font-style="italic">→ 活在 sandbox 之外，跨会话 / 跨故障保留</text>
+
+              <rect x="160" y="315" width="260" height="70" fill="#fff" stroke="#c5c5b0"/>
+              <text x="172" y="335" fill="#5a5a3a" font-weight="600" font-size="11">POSTGRES · 结构化业务数据</text>
+              <text x="172" y="354" fill="#4a4a4a" font-size="11">workspaces · biz_profiles</text>
+              <text x="172" y="370" fill="#4a4a4a" font-size="11">proposals · conversations · sessions</text>
+
+              <rect x="440" y="315" width="260" height="70" fill="#fff" stroke="#c5c5b0"/>
+              <text x="452" y="335" fill="#5a5a3a" font-weight="600" font-size="11">SHARED STORAGE · agent fs</text>
+              <text x="452" y="354" fill="#4a4a4a" font-size="11">memory · skills · session JSONL</text>
+              <text x="452" y="370" fill="#4a4a4a" font-size="11">subpath / volume mount per workspace</text>
+            </g>
+
+            <!-- ARROWS -->
+            <defs>
+              <marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#6f9bb8"/>
+              </marker>
+              <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#b88a4a"/>
+              </marker>
+              <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7560"/>
+              </marker>
+            </defs>
+
+            <g fill="none" stroke-width="1.4">
+              <path d="M 78 130 L 138 130" stroke="#6f9bb8" marker-end="url(#arrow1)"/>
+              <path d="M 302 130 L 338 130" stroke="#6f9bb8" marker-end="url(#arrow1)"/>
+              <path d="M 522 130 L 558 130" stroke="#b88a4a" marker-end="url(#arrow2)"/>
+              <path d="M 430 200 L 430 258" stroke="#6b7560" marker-end="url(#arrow3)"/>
+              <path d="M 640 200 L 640 258" stroke="#6b7560" marker-end="url(#arrow3)" stroke-dasharray="3 3"/>
+            </g>
+
+            <text x="430" y="225" fill="#6b7560" font-size="10" text-anchor="middle">read / write</text>
+            <text x="640" y="225" fill="#6b7560" font-size="10" text-anchor="middle">mount</text>
+          </svg>
+          <figcaption><span class="fig-num">FIG 2</span>新架构 · 前端 / 中心 agent / sandbox / 持久化 各自独立伸缩</figcaption>
+        </figure>
+
+        <h3>各层职责</h3>
+        <ul>
+          <li><strong>Frontend 中心化</strong>。所有用户访问同一个 <code>app.crewlet.dev</code>，前端走 Vercel/CF。</li>
+          <li><strong>Agent 中心化</strong>。一组 stateless 服务实例跑所有用户的 agent loop。OAuth token 在中心可信环境里直接调外部 API，<strong>credential proxy 整体删除</strong>。</li>
+          <li><strong>Sandbox 按需</strong>。用户发起一次 agent run，中心服务才 <code>sandbox.create()</code> 一个 ephemeral 实例作为这次跑的执行环境。结束即销毁。</li>
+          <li><strong>持久化分两条路</strong>。结构化业务数据（proposals、对话、用户画像）通过显式 tool 直写 Postgres；agent 自己的 fs 状态（memory markdown、SKILL.md、session JSONL）放进共享存储，靠 subpath 做多租户隔离。</li>
+        </ul>
+
+        <h3>原语设计 · 借鉴 Claude Managed Agents</h3>
+
+        <p>
+          上面是高层职责划分，<strong>每一层内部应该长什么样</strong>则参考 Anthropic 自家的
+          <a href="https://platform.claude.com/docs/en/managed-agents/overview">Claude Managed Agents</a> 平台。
+          他们把 agent 系统拆成<strong>四个独立可寻址的概念</strong>，每个都是干净边界。
+          我们不直接用他们的服务（绑死 Claude + Beta + plugin 要全改 MCP），但抄这种切法。
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Claude Managed Agents 原语</th>
+              <th>我们的实现对应</th>
+              <th>带来的好处</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Agent</strong><br/><em>model + system prompt + tools + MCP + skills</em></td>
+              <td>Postgres <code>agents</code> 表 + 中心 service 的 tool registry</td>
+              <td>同一 agent 定义跑在不同 environment 上 · 一次配置 N 次复用</td>
+            </tr>
+            <tr>
+              <td><strong>Environment</strong><br/><em>容器模板 · packages · network · mounts</em></td>
+              <td>Sandbox image + 启动参数（Postgres <code>environments</code> 表）</td>
+              <td>Tier 1 / Tier 2 用不同 env · 重度任务换大 env · 不需要为不同任务维护不同 agent</td>
+            </tr>
+            <tr>
+              <td><strong>Session</strong><br/><em>运行中的 agent 实例 + 持久化 state</em></td>
+              <td>Postgres <code>sessions</code> + 共享存储 subpath</td>
+              <td>跨 sandbox 实例 resume · 中心服务崩了不丢 · 可中断 / steer</td>
+            </tr>
+            <tr>
+              <td><strong>Events</strong><br/><em>SSE 双向流（user turn · tool result · status）</em></td>
+              <td>WebSocket 流 + Postgres 事件日志（append-only）</td>
+              <td>客户端断线重连不丢 token · 历史完全可回放 · agent 步骤可观测</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          这种拆法的本质：<strong>每个原语都是数据，独立寻址、版本化、复用</strong>。
+          今天 crewlet 把 agent 配置、environment、session state 全部塞在同一个进程里，
+          改一个要重启整套。四原语模型彻底解开这个绑死。
+        </p>
+
+        <h4>额外值得借鉴的实现细节</h4>
+        <ul>
+          <li><strong>MCP 作为外部 plugin 扩展点</strong>。我们的 plugin 系统未来可以改造成 MCP server 形态，接入更大工具生态而不破坏内部 agent 设计；同时第三方也能给 Crewlet 写 plugin。</li>
+          <li><strong>Session 可中断 / steer</strong>。用户中途发新消息打断 agent 改方向，不用等它跑完——明显的 UX 提升。</li>
+          <li><strong>内置工具 + 外接工具分层</strong>。bash / fs / web 这类基础工具内置（每个 environment 都有），业务工具走 plugin/MCP（按 agent 配置注入）。今天我们没有这个区分。</li>
+          <li><strong>Outcomes / 结构化产物</strong>。Anthropic 的 outcomes feature 把 agent 最终产出抽象成结构化对象，跟 events 流分开存。我们对应的是"Proposal"这种业务产物——也应该独立建模而不是埋在 conversation 里。</li>
+        </ul>
+      </section>
+
+      <!-- ──────────────────── Section 4 ──────────────────── -->
+      <section>
+        <h2><span class="num">04</span>对比 · Onboarding 时序与成本</h2>
+
+        <p>
+          架构差异最直接的体现在用户 onboarding 上。下图把"新用户从填表到看到第一个 Proposal"这条路径放在同一条时间轴上对比。
+        </p>
+
+        <!-- FIG 3 — Onboarding sequence comparison -->
+        <figure>
+          <svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" font-size="11">
+            <rect width="760" height="320" fill="#fff"/>
+
+            <!-- axis -->
+            <line x1="180" y1="280" x2="720" y2="280" stroke="#7a7a7a" stroke-width="1"/>
+            <g fill="#7a7a7a" font-size="10">
+              <text x="180" y="300" text-anchor="middle">0s</text>
+              <text x="288" y="300" text-anchor="middle">30s</text>
+              <text x="396" y="300" text-anchor="middle">60s</text>
+              <text x="504" y="300" text-anchor="middle">90s</text>
+              <text x="612" y="300" text-anchor="middle">120s</text>
+              <text x="720" y="300" text-anchor="middle">~3min</text>
+            </g>
+            <g stroke="#e8e8e2" stroke-width="1" stroke-dasharray="2 4">
+              <line x1="288" y1="60" x2="288" y2="280"/>
+              <line x1="396" y1="60" x2="396" y2="280"/>
+              <line x1="504" y1="60" x2="504" y2="280"/>
+              <line x1="612" y1="60" x2="612" y2="280"/>
+            </g>
+
+            <!-- OLD -->
+            <text x="160" y="100" text-anchor="end" fill="#7a6420" font-weight="600" font-size="11">现状</text>
+            <text x="160" y="115" text-anchor="end" fill="#7a7a7a" font-size="10">Fly VM</text>
+
+            <rect x="180" y="88" width="50" height="22" fill="#f0ede5" stroke="#c0baa0"/>
+            <text x="205" y="103" text-anchor="middle" fill="#4a4a4a">注册</text>
+
+            <rect x="230" y="88" width="180" height="22" fill="#ecdfb8" stroke="#b88a4a"/>
+            <text x="320" y="103" text-anchor="middle" fill="#7a6420">VM 配置 + 拉镜像 + 初始化</text>
+
+            <rect x="410" y="88" width="70" height="22" fill="#f0ede5" stroke="#c0baa0"/>
+            <text x="445" y="103" text-anchor="middle" fill="#4a4a4a">前端加载</text>
+
+            <rect x="480" y="88" width="40" height="22" fill="#f0ede5" stroke="#c0baa0"/>
+            <text x="500" y="103" text-anchor="middle" fill="#4a4a4a">填表</text>
+
+            <rect x="520" y="88" width="180" height="22" fill="#f0ede5" stroke="#c0baa0"/>
+            <text x="610" y="103" text-anchor="middle" fill="#4a4a4a">Agent 调研 + Proposal</text>
+
+            <!-- value point -->
+            <line x1="700" y1="78" x2="700" y2="115" stroke="#a05050" stroke-width="1.5"/>
+            <circle cx="700" cy="100" r="3" fill="#a05050"/>
+            <text x="700" y="73" text-anchor="middle" fill="#a05050" font-size="10" font-weight="600">first value</text>
+
+            <!-- NEW -->
+            <text x="160" y="200" text-anchor="end" fill="#6f9bb8" font-weight="600" font-size="11">新架构</text>
+            <text x="160" y="215" text-anchor="end" fill="#7a7a7a" font-size="10">Sandbox</text>
+
+            <rect x="180" y="188" width="40" height="22" fill="#eef4f8" stroke="#a5c0d8"/>
+            <text x="200" y="203" text-anchor="middle" fill="#4a4a4a">注册</text>
+
+            <rect x="220" y="188" width="30" height="22" fill="#eef4f8" stroke="#a5c0d8"/>
+            <text x="235" y="203" text-anchor="middle" fill="#4a4a4a">→</text>
+            <text x="235" y="178" text-anchor="middle" fill="#7a7a7a" font-size="9.5">即时</text>
+
+            <rect x="250" y="188" width="40" height="22" fill="#eef4f8" stroke="#a5c0d8"/>
+            <text x="270" y="203" text-anchor="middle" fill="#4a4a4a">填表</text>
+
+            <!-- async sandbox spin-up overlapping -->
+            <rect x="290" y="170" width="40" height="16" fill="#fff5e0" stroke="#d8c890" stroke-dasharray="2 2"/>
+            <text x="310" y="182" text-anchor="middle" fill="#7a6420" font-size="9.5">sandbox</text>
+
+            <rect x="290" y="188" width="290" height="22" fill="#eef4f8" stroke="#a5c0d8"/>
+            <text x="435" y="203" text-anchor="middle" fill="#4a4a4a">Agent 调研 + Proposal (streaming)</text>
+
+            <line x1="580" y1="178" x2="580" y2="215" stroke="#6f9bb8" stroke-width="1.5"/>
+            <circle cx="580" cy="200" r="3" fill="#6f9bb8"/>
+            <text x="580" y="173" text-anchor="middle" fill="#6f9bb8" font-size="10" font-weight="600">first value</text>
+
+            <!-- annotations -->
+            <text x="320" y="148" text-anchor="middle" fill="#a05050" font-size="11" font-weight="600">─── 用户在等 VM ───</text>
+            <text x="435" y="240" text-anchor="middle" fill="#6f9bb8" font-size="11" font-weight="600">─── 用户在跟 agent 互动 ───</text>
+
+            <!-- legend -->
+            <g transform="translate(40, 30)" font-size="10" fill="#7a7a7a">
+              <rect x="0" y="0" width="14" height="10" fill="#f0ede5" stroke="#c0baa0"/>
+              <text x="20" y="9">用户感知到的操作</text>
+              <rect x="160" y="0" width="14" height="10" fill="#ecdfb8" stroke="#b88a4a"/>
+              <text x="180" y="9">基建配置等待</text>
+              <rect x="290" y="0" width="14" height="10" fill="#fff5e0" stroke="#d8c890" stroke-dasharray="2 2"/>
+              <text x="310" y="9">后台异步任务（用户无感）</text>
+            </g>
+          </svg>
+          <figcaption><span class="fig-num">FIG 3</span>Onboarding 时序对比 · 新架构把基建等待移出关键路径</figcaption>
+        </figure>
+
+        <p>
+          关键不是"总时长缩短了多少秒"，而是<strong>把基建等待从用户感知的关键路径上移出去了</strong>。
+          新架构里用户始终在"做事"——填表、看 streaming，sandbox 拉起在后台跑。
+        </p>
+
+        <h3>每用户成本对比</h3>
+
+        <!-- FIG 4 — Cost comparison bar chart -->
+        <figure>
+          <svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" font-size="11">
+            <rect width="760" height="280" fill="#fff"/>
+
+            <!-- axis -->
+            <line x1="180" y1="240" x2="700" y2="240" stroke="#7a7a7a"/>
+            <line x1="180" y1="40" x2="180" y2="240" stroke="#7a7a7a"/>
+
+            <!-- y-axis labels -->
+            <g fill="#7a7a7a" font-size="10" text-anchor="end">
+              <text x="170" y="244">$0</text>
+              <text x="170" y="194">$2</text>
+              <text x="170" y="144">$4</text>
+              <text x="170" y="94">$6</text>
+              <text x="170" y="44">$8+</text>
+            </g>
+            <g stroke="#e8e8e2" stroke-width="1" stroke-dasharray="2 4">
+              <line x1="180" y1="194" x2="700" y2="194"/>
+              <line x1="180" y1="144" x2="700" y2="144"/>
+              <line x1="180" y1="94" x2="700" y2="94"/>
+              <line x1="180" y1="44" x2="700" y2="44"/>
+            </g>
+
+            <!-- bars: each group has 2 bars (old / new) -->
+
+            <!-- Group: Free trial user -->
+            <g>
+              <rect x="220" y="44" width="40" height="196" fill="#ecdfb8" stroke="#b88a4a"/>
+              <text x="240" y="35" text-anchor="middle" fill="#7a6420" font-size="11" font-weight="600">~$8</text>
+
+              <rect x="265" y="238" width="40" height="2" fill="#a5c0d8" stroke="#6f9bb8"/>
+              <text x="285" y="232" text-anchor="middle" fill="#6f9bb8" font-size="11" font-weight="600">~$0.01</text>
+
+              <text x="262" y="262" text-anchor="middle" fill="#4a4a4a" font-size="11">免费试用用户</text>
+            </g>
+
+            <!-- Group: Light paying user 1h/day -->
+            <g>
+              <rect x="370" y="120" width="40" height="120" fill="#ecdfb8" stroke="#b88a4a"/>
+              <text x="390" y="113" text-anchor="middle" fill="#7a6420" font-size="11" font-weight="600">~$5</text>
+
+              <rect x="415" y="118" width="40" height="122" fill="#a5c0d8" stroke="#6f9bb8"/>
+              <text x="435" y="111" text-anchor="middle" fill="#6f9bb8" font-size="11" font-weight="600">~$5</text>
+
+              <text x="412" y="262" text-anchor="middle" fill="#4a4a4a" font-size="11">付费用户 (1h/天)</text>
+            </g>
+
+            <!-- Group: Heavy paying user 8h/day -->
+            <g>
+              <rect x="520" y="64" width="40" height="176" fill="#ecdfb8" stroke="#b88a4a"/>
+              <text x="540" y="55" text-anchor="middle" fill="#7a6420" font-size="11" font-weight="600">~$7</text>
+
+              <rect x="565" y="20" width="40" height="220" fill="#a5c0d8" stroke="#6f9bb8"/>
+              <text x="585" y="13" text-anchor="middle" fill="#6f9bb8" font-size="11" font-weight="600">~$10</text>
+
+              <text x="562" y="262" text-anchor="middle" fill="#4a4a4a" font-size="11">付费用户 (8h/天)</text>
+            </g>
+
+            <!-- legend -->
+            <g transform="translate(40, 50)" font-size="10" fill="#7a7a7a">
+              <rect x="0" y="0" width="14" height="10" fill="#ecdfb8" stroke="#b88a4a"/>
+              <text x="20" y="9">Fly VM</text>
+              <rect x="0" y="20" width="14" height="10" fill="#a5c0d8" stroke="#6f9bb8"/>
+              <text x="20" y="29">Sandbox</text>
+              <text x="0" y="60" fill="#7a7a7a" font-size="9.5">单位：美元 / 用户 / 月</text>
+              <text x="0" y="76" fill="#7a7a7a" font-size="9.5">不含 LLM、Postgres 成本</text>
+            </g>
+          </svg>
+          <figcaption><span class="fig-num">FIG 4</span>每用户基建成本对比 · 免费用户从 ~$8 → ~$0，付费用户基本持平或略涨</figcaption>
+        </figure>
+
+        <p>
+          <strong>免费用户那一栏是决胜负的地方</strong>。今天的模型一台 VM ≈ $5 长期占用 + 维护成本，
+          而漏斗转化率通常是 5–10%。新模型让免费用户的基建成本压到接近 0（按需 ephemeral + 共享存储免费/极低成本），
+          让我们可以放心地把试用入口做宽。付费用户成本基本持平，本来就该花的钱。
+        </p>
+      </section>
+
+      <!-- ──────────────────── Section 5 ──────────────────── -->
+      <section>
+        <h2><span class="num">05</span>Tier 1 / Tier 2 · 同一套基建，两种产品形态</h2>
+
+        <p>
+          这套架构同时支持两种产品形态，<strong>共用同一个 agent loop 代码</strong>，区别只在 sandbox 生命周期和工具集。
+        </p>
+
+        <!-- FIG 5 — Tier 1 vs Tier 2 lifecycle timeline -->
+        <figure>
+          <svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, Menlo, monospace" font-size="11">
+            <rect width="760" height="280" fill="#fff"/>
+
+            <!-- Time axis -->
+            <line x1="180" y1="240" x2="720" y2="240" stroke="#7a7a7a"/>
+            <g fill="#7a7a7a" font-size="10">
+              <text x="180" y="260" text-anchor="middle">注册 day 0</text>
+              <text x="360" y="260" text-anchor="middle">day 3</text>
+              <text x="540" y="260" text-anchor="middle">day 7 · 付费</text>
+              <text x="720" y="260" text-anchor="middle">→ Tier 2</text>
+            </g>
+            <line x1="540" y1="40" x2="540" y2="240" stroke="#a05050" stroke-width="1" stroke-dasharray="3 3"/>
+
+            <!-- Tier 1 sandbox pulses -->
+            <text x="160" y="90" text-anchor="end" fill="#6f9bb8" font-weight="600" font-size="11">Tier 1</text>
+            <text x="160" y="104" text-anchor="end" fill="#7a7a7a" font-size="10">ephemeral</text>
+
+            <rect x="200" y="85" width="40" height="20" fill="#a5c0d8" stroke="#6f9bb8"/>
+            <text x="220" y="80" text-anchor="middle" fill="#6f9bb8" font-size="9.5">session</text>
+
+            <rect x="340" y="85" width="40" height="20" fill="#a5c0d8" stroke="#6f9bb8"/>
+            <text x="360" y="80" text-anchor="middle" fill="#6f9bb8" font-size="9.5">session</text>
+
+            <rect x="450" y="85" width="40" height="20" fill="#a5c0d8" stroke="#6f9bb8"/>
+            <text x="470" y="80" text-anchor="middle" fill="#6f9bb8" font-size="9.5">session</text>
+
+            <!-- Tier 1 storage line -->
+            <line x1="200" y1="140" x2="540" y2="140" stroke="#6b7560" stroke-width="2"/>
+            <text x="370" y="156" text-anchor="middle" fill="#6b7560" font-size="10" font-style="italic">subpath: tier1/{workspace_id} (持久)</text>
+
+            <!-- Tier 2 long-lived sandbox -->
+            <text x="160" y="190" text-anchor="end" fill="#6f9bb8" font-weight="600" font-size="11">Tier 2</text>
+            <text x="160" y="204" text-anchor="middle" fill="#7a7a7a" font-size="10" text-anchor="end">long-lived</text>
+
+            <rect x="540" y="180" width="180" height="24" fill="#a5c0d8" stroke="#6f9bb8" stroke-width="1.5"/>
+            <text x="630" y="196" text-anchor="middle" fill="#4a4a4a" font-size="10.5">always-on (15min auto-stop)</text>
+
+            <!-- arrow for conversion -->
+            <text x="540" y="30" text-anchor="middle" fill="#a05050" font-size="11" font-weight="600">付费瞬间</text>
+            <text x="540" y="44" text-anchor="middle" fill="#a05050" font-size="9.5">subpath: tier1/ → tier2/</text>
+            <text x="540" y="58" text-anchor="middle" fill="#a05050" font-size="9.5">数据零迁移（workspace_id 不变）</text>
+
+            <!-- legend -->
+            <g transform="translate(40, 30)" font-size="10" fill="#7a7a7a">
+              <rect x="0" y="0" width="14" height="10" fill="#a5c0d8" stroke="#6f9bb8"/>
+              <text x="20" y="9">Sandbox 实例</text>
+              <line x1="0" y1="25" x2="14" y2="25" stroke="#6b7560" stroke-width="2"/>
+              <text x="20" y="29">共享存储 subpath</text>
+            </g>
+          </svg>
+          <figcaption><span class="fig-num">FIG 5</span>Tier 1 / Tier 2 sandbox 生命周期 · 转化时仅 subpath 变更，无数据迁移</figcaption>
+        </figure>
+
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Tier 1 · 免费试用</th>
+              <th>Tier 2 · 付费私有环境</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>入口</strong></td>
+              <td><code>/content</code> · Content Generation</td>
+              <td>完整 Crewlet workspace</td>
+            </tr>
+            <tr>
+              <td><strong>用户操作</strong></td>
+              <td>填表单 → 看 Proposed Actions</td>
+              <td>持续接入 integrations · 执行 actions</td>
+            </tr>
+            <tr>
+              <td><strong>Sandbox 模式</strong></td>
+              <td>Ephemeral · 跑完即删</td>
+              <td>Long-lived · 15min auto-stop</td>
+            </tr>
+            <tr>
+              <td><strong>共享存储 subpath</strong></td>
+              <td><code>tier1/{workspace_id}</code></td>
+              <td><code>tier2/{workspace_id}</code></td>
+            </tr>
+            <tr>
+              <td><strong>Compute 成本</strong></td>
+              <td class="num">~$0.01 / session</td>
+              <td class="num">$3 ~ $10 / 用户 / 月</td>
+            </tr>
+            <tr>
+              <td><strong>容忍延迟</strong></td>
+              <td>1–2 min agent 调研</td>
+              <td>异步执行无强约束</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>转化的瞬间</h3>
+        <p>
+          Workspace ID 从用户首次注册就发。Tier 1 阶段所有数据都以这个 workspace_id 落 Postgres + 共享存储 subpath。
+          付费时只是给同一个 workspace 把 sandbox 模式从 ephemeral 切到 long-lived、subpath 从 <code>tier1/</code> 迁到 <code>tier2/</code>，
+          <strong>不存在"数据迁移"</strong>。
+        </p>
+      </section>
+
+      <!-- ──────────────────── Section 6 ──────────────────── -->
+      <section>
+        <h2><span class="num">06</span>对 Sandbox Service 的需求清单</h2>
+
+        <p>
+          先不绑定具体供应商。这套架构对 sandbox service 层有以下硬需求和软需求,据此对市面方案打分。
+        </p>
+
+        <h3>硬需求</h3>
+        <ul>
+          <li><strong>Ephemeral sandbox API</strong>。能在几秒内通过 SDK 拉起一个隔离的 Linux 环境，跑完销毁。</li>
+          <li><strong>共享持久存储</strong>。某种形式的 volume / 网络存储，可以挂到任意 sandbox 上、独立于 sandbox 生命周期。</li>
+          <li><strong>多租户隔离机制</strong>。同一共享存储下用 subpath 或类似机制做 workspace 级隔离。</li>
+          <li><strong>自定义镜像</strong>。能跑我们的 Node + Python + 工具链。</li>
+          <li><strong>合理的计费颗粒</strong>。按秒/分钟计费、idle 不计费 compute。</li>
+        </ul>
+
+        <h3>软需求</h3>
+        <ul>
+          <li>稳定的 stopped → started 延迟（p95 &lt; 3s 较理想）。</li>
+          <li>Open source 自托管选项（降低长期锁定风险）。</li>
+          <li>SDK 覆盖 TypeScript（首选）+ Python。</li>
+          <li>公网入口 / preview URL 能力（未来 Tier 2 可能需要暴露 sandbox 内的服务）。</li>
+          <li>组织级 quota 容得下试用流量（1 万+ workspace）。</li>
+        </ul>
+
+        <h3>候选供应商</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>方案</th>
+              <th>核心机制</th>
+              <th>启动量级</th>
+              <th>风险</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Daytona</td>
+              <td>容器 + FUSE volume</td>
+              <td>~90ms warm pool</td>
+              <td>FUSE 不适合 block storage (SQLite 风险)</td>
+            </tr>
+            <tr>
+              <td>E2B</td>
+              <td>Firecracker microVM</td>
+              <td>~150ms 创建</td>
+              <td>持久化模型较弱</td>
+            </tr>
+            <tr>
+              <td>Fly Sprites</td>
+              <td>Firecracker + NVMe</td>
+              <td>checkpoint/restore ~300ms</td>
+              <td>较新 · 跟现有 Fly 账号关系待评估</td>
+            </tr>
+            <tr>
+              <td>Blaxel</td>
+              <td>microVM + 内存 snapshot</td>
+              <td>resume ~25ms</td>
+              <td>较新 · 价格不透明</td>
+            </tr>
+            <tr>
+              <td>Modal</td>
+              <td>Function as compute</td>
+              <td>sub-second cold start</td>
+              <td>更偏向 task runner，sandbox 抽象较弱</td>
+            </tr>
+            <tr>
+              <td>自建 Firecracker</td>
+              <td>—</td>
+              <td>可控</td>
+              <td>工程量巨大，违背项目初衷</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout warn">
+          <div class="callout-label">选型决策延后</div>
+          供应商选型不在本文档内拍板。P0 PoC 用 2–3 个候选方案跑同一个测试脚本，
+          实测启动延迟、volume 持久化、SQLite over FUSE 性能（如果用 FUSE 方案），再做决策。
+          架构本身不绑定任何具体供应商。
+        </div>
+      </section>
+
+      <!-- ──────────────────── Section 7 ──────────────────── -->
+      <section>
+        <h2><span class="num">07</span>迁移路径</h2>
+
+        <p>分阶段，最小可发布优先，每阶段独立可验证。</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 70px;">阶段</th>
+              <th>交付</th>
+              <th style="width: 90px;">范围</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="num">P0</td>
+              <td><strong>Sandbox provider PoC</strong>。30 行脚本验 ephemeral + 持久存储 + 多租户隔离 + 启动延迟分布。在 2–3 个候选供应商上跑同一组测试，得出 p50/p95 数据再选型。</td>
+              <td>~1 周</td>
+            </tr>
+            <tr>
+              <td class="num">P1</td>
+              <td><strong>Tier 1 · Content Generation MVP</strong>。新 <code>/content</code> 入口、中心 agent service、ephemeral sandbox 集成、复用现有 crewlet agent loop。Postgres schema（workspaces / proposals / biz_profiles）。</td>
+              <td>~3-4 周</td>
+            </tr>
+            <tr>
+              <td class="num">P2</td>
+              <td><strong>转化漏斗</strong>。Tier 1 → Tier 2 升级流程、付费、long-lived sandbox 模式、workspace_id 不变。</td>
+              <td>~2 周</td>
+            </tr>
+            <tr>
+              <td class="num">P3</td>
+              <td><strong>Plugin 系统接回</strong>。Slack / GitHub / PostHog / Vercel 等 integrations 在中心服务直调（删除 credential proxy）。</td>
+              <td>~2-3 周</td>
+            </tr>
+            <tr>
+              <td class="num">P4</td>
+              <td><strong>老 Fly VM 用户迁移或下线</strong>。视存量决定平行运行或一次性迁移。</td>
+              <td>视情况</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          <strong>P0 是必经的卡口</strong>。Sandbox provider 选型 / 性能假设 / 持久化机制三件事在 P0 里同时验证，
+          不通过则 P1 的部分子系统（特别是 memory）走 fallback 方案。
+        </p>
+      </section>
+
+      <!-- ──────────────────── Section 8 ──────────────────── -->
+      <section>
+        <h2><span class="num">08</span>待决策 · 开放问题</h2>
+
+        <ol>
+          <li><strong>Tier 1 agent 工具集边界</strong>。研究 agent 只用 read_file / write_file / web_search / save_proposal，还是也要 memory tools？决定 PoC 是否要测某种形式的向量库 over 网络存储。</li>
+          <li><strong>Tier 1 用户回访的 fs 保留策略</strong>。无限保留？30 天后清理 subpath？这是产品决策。</li>
+          <li><strong>Frontend 部署目标</strong>。Vercel vs Cloudflare Pages？决定 build pipeline。</li>
+          <li><strong>Postgres 托管选型</strong>。Supabase 继续？还是换 Neon / RDS？</li>
+          <li><strong>老 Fly VM 用户的迁移承诺</strong>。是否做兼容层让现有付费用户透明切换。</li>
+          <li><strong>Sandbox provider 最终选型</strong>。基于 P0 实测结果决定（见 §06 候选清单）。</li>
+          <li><strong>是否将 plugin 改造为 MCP server 形态</strong>。短期不动，但长期方向需要早表态——影响 Tier 2 plugin 接入设计。</li>
+        </ol>
+      </section>
+
+      <!-- ────── Footer ────── -->
+      <footer>
+        <h4>参考</h4>
+        <ul>
+          <li>Anthropic Engineering · <a href="https://www.anthropic.com/engineering/managed-agents">Managed Agents (Brain / Hands / Session 框架)</a></li>
+          <li>Anthropic Platform · <a href="https://platform.claude.com/docs/en/managed-agents/overview">Claude Managed Agents (Agent / Environment / Session / Events 原语模型参考)</a></li>
+          <li>Crewlet Internal · <code>docs/architecture.md</code> · <code>docs/extension-architecture.md</code></li>
+        </ul>
+      </footer>
+
+    </article>
+  </body>
+</html>
