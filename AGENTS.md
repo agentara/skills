@@ -6,7 +6,7 @@ This is a personal library of **skills** — installable prompt extensions that 
 
 ## Structure
 
-```
+```text
 skills/
   <category>/
     <skill-name>/
@@ -30,6 +30,15 @@ description: >
 ```
 
 The body after the frontmatter is the full instruction set the model will follow when the skill is invoked.
+
+## Skill Reference Maintenance
+
+Whenever adding or modifying a skill, update both reference lists that expose the skill:
+
+- Root `README.md`
+- Category README at `skills/{category_name}/README.md`
+
+Keep each reference's link, name, and short description aligned with the skill's current behavior.
 
 ## Key Design Patterns (from existing skills)
 
