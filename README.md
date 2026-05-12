@@ -1,4 +1,7 @@
-# Agentara's Skills
+# ✨ Agentara's Skills
+
+![banner](https://github.com/user-attachments/assets/d7843a4e-9b67-4494-b3c7-1f0092e41a15)
+
 
 A personal library of Claude Code skills — installable prompt extensions that give Claude Code new capabilities.
 
@@ -12,7 +15,7 @@ A personal library of Claude Code skills — installable prompt extensions that 
 
 ### Install via NPX (Recommended)
 
-```sh
+```bash
 npx skills add https://github.com/agentara/skills/blob/main/skills/productivity/doctor-strange/ -y -g
 ```
 
