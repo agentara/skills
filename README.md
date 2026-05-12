@@ -10,8 +10,9 @@ A personal library of Claude Code skills — installable prompt extensions that 
 
 ## Installing a skill
 
-Symlink or copy a skill's directory into `~/.claude/skills/<skill-name>/` so the Claude Code harness can discover it.
+Symlink or copy a skill's directory into `~/.agents/skills/<skill-name>/` and `~/.claude/skills/<skill-name>/` so the Claude Code and other agents can discover it.
 
 ```bash
+ln -s /path/to/skills/skills/productivity/doctor-strange ~/.agents/skills/doctor-strange
 ln -s /path/to/skills/skills/productivity/doctor-strange ~/.claude/skills/doctor-strange
 ```
