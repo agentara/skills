@@ -1,4 +1,4 @@
-# ✨ Agent Tara Skills
+# ✨ Agentara's Skills
 
 ![banner](https://github.com/user-attachments/assets/d7843a4e-9b67-4494-b3c7-1f0092e41a15)
 
