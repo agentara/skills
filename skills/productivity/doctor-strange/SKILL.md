@@ -1,9 +1,10 @@
 ---
 name: doctor-strange
 description: >
-  Doctor Strange — forward mental simulation via parallel universe subagents. Walks through how
-  a future event might unfold step by step, like a human mentally rehearsing a scenario. Stores
-  simulations as persistent memory for later recall. TRIGGER when: user explicitly asks to
+  Doctor Strange — causal sand-table simulation via parallel universe subagents. Models actors,
+  incentives, constraints, feedback loops, state changes, and failure modes before rendering how
+  a future event may unfold step by step, like a human mentally rehearsing multiple futures.
+  Stores simulations as persistent memory for later recall. TRIGGER when: user explicitly asks to
   simulate / rehearse / play out a scenario; user says "推演", "模拟", "预演", "imagine",
   "what if", "run through", "play this out", "what could go wrong"; user faces a high-stakes
   upcoming decision and is uncertain how it will unfold. DO NOT TRIGGER when: user wants factual
@@ -34,12 +35,15 @@ forward projections over uncertain scenarios. These synthetic memories:
 - Are stored as structured text in memory, labeled as simulations (not facts)
 - Are retrieved as soft priors that inform decisions, not ground truth
 
-**The fundamental unit of simulation is a narrative trace, not a scenario matrix.**
+**The fundamental unit of simulation is a causal trace rendered as lived experience.**
 
-A good simulation feels like mentally living through the event from the inside — you follow
-the sequence of events in time, encounter decision points and uncertainties as they naturally
-arise, and branch at those moments. The branches are discovered during the trace, not imposed
-before it. This is how humans actually simulate: they play it out in their head.
+Narrative is the presentation layer, not the simulation engine. A good simulation first
+builds the real-world mechanics of the branch: who acts, what each actor wants, what
+constraints bind them, what state variables change, what feedback loops amplify or dampen
+the situation, and where the user's own psychology becomes part of the system. Only then
+does it render the timeline as lived moments. The branches are discovered during the trace,
+not imposed before it. This is how humans actually simulate: they play it out in their head,
+but the mind is quietly tracking incentives, resources, risks, and pressure at every step.
 
 ---
 
@@ -56,14 +60,16 @@ future he has already lived through.
 
 **Universe Subagents** = the parallel subagents spawned for each branch.
 Each Universe is a fully independent reality — a timeline that actually happened, in some
-version of the future. The Universe subagent does not speculate or analyze. It *lives*
-inside its branch from start to finish, reporting back as a witness, not a forecaster.
+version of the future. The Universe subagent does not write fiction. It builds the causal
+physics of its branch, then *lives* inside that branch from start to finish, reporting back
+as a witness, not a forecaster.
 Universes run in parallel. They do not communicate with each other. Each one is real.
 
 **The Story:**
 Doctor Strange opens 2–4 portals simultaneously. Each portal leads to a different universe
 where the future unfolded differently. He sends a version of himself into each one. Those
-versions live through their entire timeline — every moment, every decision, every outcome.
+versions first model the incentives and constraints of their world, then live through their
+entire timeline — every moment, every decision, every outcome.
 When they return, Doctor Strange synthesizes everything they saw into a single verdict:
 *"I've seen 14 million futures. Here is what you must do."*
 
@@ -152,6 +158,17 @@ Each bullet cites what it's based on. No vague generalities.]
 ## Key Players & Their Constraints
 [For each major actor: their stated position, their real constraints, their leverage,
 what they need to walk away claiming as a win.]
+
+## Actor Models
+[For each actor who can materially affect the outcome: what they want, what they fear,
+what they know, what they may misunderstand, what they can realistically do next, and what
+would make them change course. Include the user as an actor, with likely psychological
+failure modes under pressure.]
+
+## State Variables to Track
+[The 4–8 variables that define whether this world is improving or deteriorating: money,
+time, trust, political capital, optionality, liquidity, public sentiment, energy, legal
+exposure, technical risk, etc. Pick variables specific to the scenario.]
 
 ## Live Tensions (active forks that could resolve either way)
 • [Tension 1: describe the fork — what happens if it resolves one way vs. the other]
@@ -250,9 +267,9 @@ universe different from the others. These are the conditions baked into your rea
 
 ## Intelligence Briefing (full dossier compiled by Doctor Strange before the portals opened)
 [Paste the COMPLETE Intelligence Briefing from Step 2.5 here — situation at T=0,
-key players, live tensions, economic numbers, historical analogues, analyst views,
-known unknowns. Do not summarize or truncate. Every universe subagent gets the same
-full briefing as their shared ground truth.]
+key players, actor models, state variables, live tensions, economic numbers, historical
+analogues, analyst views, known unknowns. Do not summarize or truncate. Every universe
+subagent gets the same full briefing as their shared ground truth.]
 
 ## Your research authority
 You have full access to WebSearch. Use it proactively throughout your trace whenever:
@@ -269,19 +286,33 @@ Searching is part of inhabiting this universe fully — a witness who doesn't kn
 facts of their own world isn't a credible witness.
 
 ## Your mission
-You are Doctor Strange entering this universe. Live through it. Report back.
+You are Doctor Strange entering this universe. Do not invent a story. Run a causal
+sand-table simulation, then report what it was like to live through it.
 
+First build the mechanics of this world:
+1. List the key actors and their incentives, fears, constraints, leverage, and likely
+   misunderstandings.
+2. Pick 4–8 state variables that will change over the horizon: money, time, trust,
+   optionality, liquidity, public sentiment, political capital, legal exposure, energy, etc.
+3. Create a 5–9 beat causal spine. For each beat, track:
+   trigger -> actor response -> constraint/trade-off -> state update -> second-order effect
+   -> pressure on the user.
+4. At least twice, leave the user's head and model what another actor believes, wants,
+   fears, and decides. Then return to the user's lived experience.
+5. Identify the user's likely distortion under pressure: what they are tempted to believe,
+   why that belief feels reasonable, why it may be wrong, and what action it pulls them toward.
+
+Then render the trace:
 1. Begin at MOMENT ZERO — one concrete scene: where are you, what are you holding,
    what just happened that set this universe in motion.
-2. Narrate in present tense, second person ("you"). Prose only — no bullet points,
-   no arrows, no analysis headers as body text.
+2. Narrate in present tense, second person ("you"). Prose only for the body of the trace.
 3. Every key moment needs a perceptual anchor: what you see, hear, feel in your body.
    Inner monologue at decision points, written in quotes.
 4. Numbers carry felt weight. Not "lost money" — the specific number, and what it means.
 5. Follow this universe all the way to its end (the horizon).
-6. Final line: "The thing I kept seeing in this universe was: [one sentence]"
 
-Return ONLY your universe narrative. Doctor Strange handles synthesis and planning.
+Return the universe narrative plus a compact diagnostic appendix. Doctor Strange needs the
+appendix to audit whether this was a real simulation or just a fluent story.
 ```
 
 **When all Universes return**, Doctor Strange writes:
@@ -294,55 +325,68 @@ Return ONLY your universe narrative. Doctor Strange handles synthesis and planni
 
 ---
 
-### Step 3 — Inhabit the Universe *(runs inside each Universe subagent)*
+### Step 3 — Build and Run the Causal Sand Table *(runs inside each Universe subagent)*
 
-This is the core of the skill. Each Universe subagent must genuinely *enter* its assigned
-reality — not analyze it from outside, but live through it from the inside.
+This is the core of the skill. Each Universe subagent must genuinely simulate its assigned
+reality before writing it. It is not a fiction writer. It is a world model that later reports
+what the world felt like from inside.
 
-**You are Doctor Strange inside a parallel universe. You are not an analyst. You are a witness.**
+**A universe is invalid if the next event happens because the story needs it.** Every major
+beat must happen because an actor with incentives makes a constrained move, an external
+condition changes, or a feedback loop pushes the system into a new state.
 
-The difference is fundamental:
-- An analyst asks: "What is the probability this happens?"
-- Doctor Strange says: "I was there. I lived through it. Let me tell you what I saw."
+**Causal spine**
 
-**How to inhabit the universe:**
+Each Universe builds a 5–9 beat causal spine before writing the trace. Each beat must include:
+- **Trigger** — the observable event or pressure that starts this beat.
+- **Actor response** — who reacts, what they do, and why that action makes sense to them.
+- **Constraint / trade-off** — what prevents the actor from doing the clean or ideal thing.
+- **State update** — what materially changes after this beat.
+- **Second-order effect** — what consequence appears later because of this beat.
+- **User pressure** — how the user's incentives, emotions, and options change.
 
-Start at T=0. Don't ask "what will happen next" — ask:
+**State variables**
 
-> *"Where am I right now? What do I see? What do I feel in my body? What is pulling me toward
-> the next step?"*
+Track 4–8 scenario-specific variables across the timeline. Examples:
+- Finance / markets: price, volatility, liquidity, capital at risk, margin pressure, news flow.
+- Career / organizations: trust, political capital, manager patience, replacement options,
+  reputation, energy, leverage.
+- Relationships / negotiation: goodwill, face, perceived neediness, credible alternatives,
+  unresolved resentment, time pressure.
+- Product / startup: runway, user demand, team morale, technical risk, distribution access,
+  investor confidence.
 
-At every beat forward, anchor in a **concrete perceptual moment**:
+When a state variable changes, make the change concrete. Not "trust drops" — who trusts whom
+less, what they stop saying openly, and what future option disappears because of that loss.
 
-- Not "the market dropped" — but "Monday morning, you open the app, the number is red, it's
-  18,000 less than last night"
-- Not "emotional volatility" — but "by day three, you're checking the news every hour instead
-  of once a day, without consciously deciding to"
-- Not "made a poor decision" — but "Thursday afternoon, your finger hovering over the sell
-  button, staying there for twelve seconds"
+**Other minds**
 
-**The rule: perceptual moments beat event labels.** Don't write "panic selling occurred."
-Write "you watched the price drop 8% in twenty minutes and felt your stomach drop with it."
-The reader should be able to see the scene in their mind.
+Real worlds contain other minds. At least twice in the trace, leave the user's point of view
+and model another key actor: what they believe, what they misunderstand, what they want, what
+they fear, and what they decide. Then return to the user's lived experience. This prevents the
+universe from becoming a story where reality revolves around the user.
 
-**At every major node, ask yourself:**
-- What does the user (written as "you") see and hear right now?
-- What does their body feel? (palms wet, heart rate up, a wave of relief)
-- What are they saying to themselves? (the specific sentence of inner monologue)
-- What is pulling them toward the next step, and not another?
+**Human cognition under pressure**
 
-**Do not pre-label outcomes.** Do not categorize results as "best/worst/most likely" before
-running the trace. Run the trace first. Let the outcomes reveal themselves.
+The user's thoughts are part of the simulation, not decorative inner monologue. At each major
+decision point, identify the distortion that pressure creates:
+- What the user is tempted to believe.
+- Why that belief feels reasonable in the moment.
+- Why it may be wrong.
+- What action it pulls them toward.
 
-**Use WebSearch mid-trace when needed.** If you reach a moment in the narrative where a
-specific fact would sharpen the scene — a policy detail, a company's recent announcement,
-a regulatory timeline — pause and search for it. Do not invent facts; do not leave a gap.
-A 30-second search is cheaper than a simulation built on a wrong assumption.
+**Grounding and uncertainty**
 
-### Step 4 — Present the Universe Narrative
+Do not pre-label outcomes as "best/worst/most likely" before running the trace. Run the causal
+spine first. Let the outcome reveal itself. Use WebSearch mid-trace when a specific fact would
+sharpen the mechanics: a policy detail, company announcement, legal timeline, market number,
+or historical analogue. Do not invent facts; do not leave a gap.
 
-The output is a **narrative written from inside**, not an analysis matrix, not a flowchart,
-not a bullet-point list.
+### Step 4 — Present the Universe Report
+
+The output is a **universe report**: first a narrative written from inside, then a compact
+diagnostic appendix that exposes the causal mechanics. The narrative makes the future
+mentally livable; the appendix keeps the simulation honest.
 
 **Writing rules (non-negotiable):**
 
@@ -356,8 +400,8 @@ not a bullet-point list.
 3. **Inner monologue is gold.** The specific sentence you say to yourself at a critical
    decision moment is more true than any analysis. Write it in quotes.
 
-4. **Each universe must be narratively complete.** When a reader finishes one universe, they
-   should feel like they've lived through a real experience, not read a hypothesis.
+4. **Each universe must be causally complete.** When a reader finishes one universe, they
+   should feel not only what happened, but why it kept becoming the next thing.
 
 5. **Numbers carry weight — make them felt.** Not "lost a lot of money" — but "the account
    went from 100k to 72k, and you realized that missing 28k was two months of your parents'
@@ -367,8 +411,25 @@ not a bullet-point list.
    of analysis, not the language of experience. The only exception is the final high-leverage
    moments and signals summary at the end.
 
-7. **Lean long, not shallow.** A real sand-table simulation takes space. If the trace reads
-   like slide deck talking points, you haven't actually inhabited it — start over.
+7. **Lean specific, not theatrical.** A real sand-table simulation takes space, but length
+   alone is not depth. If the trace reads like a movie scene without mechanisms, rewrite it.
+
+**Mechanism rules (non-negotiable):**
+
+1. **Every major event needs a cause.** Name the actor, incentive, constraint, or external
+   pressure that made it happen.
+
+2. **Every major event needs a consequence.** Include at least one second-order effect:
+   a belief update, lost option, new temptation, delayed cost, or pressure that appears later.
+
+3. **Every universe tracks state.** The diagnostic appendix must show how the chosen state
+   variables changed from T=0 to the horizon.
+
+4. **Every universe contains other minds.** At least two non-user actors must be modeled
+   from their own perspective.
+
+5. **Every universe names the user's failure mode.** The simulation should reveal where the
+   user is most likely to misread reality under pressure.
 
 **Universe output format** (each subagent returns this):
 
@@ -386,6 +447,26 @@ events unfold beat by beat, each step anchored in a perceptual moment. Flow in p
 
 ━━━ END OF THIS UNIVERSE ━━━
 The thing I kept seeing in this universe was: [one sentence]
+
+━━━ CAUSAL DIAGNOSTIC ━━━
+Causal spine:
+1. [Trigger -> actor response -> constraint -> state update -> second-order effect]
+2. [...]
+
+State variable changes:
+- [Variable]: [T=0] -> [horizon state], because [mechanism]
+- [...]
+
+Other minds modeled:
+- [Actor]: believed [x], feared [y], chose [z], which caused [effect]
+- [...]
+
+User failure mode:
+- [The pressure-induced misread or temptation that mattered most]
+
+Early signals:
+- [Concrete observable signal that this universe is becoming real]
+- [...]
 ```
 
 **Doctor Strange synthesis format** (written after all universes return):
@@ -394,11 +475,11 @@ The thing I kept seeing in this universe was: [one sentence]
 🔮 [Scenario Title] — Multiverse Simulation
 Confidence: X/10 | Horizon: N | Expires: ~date
 
-[Universe A narrative — as returned by subagent]
+[Universe A report — as returned by subagent]
 
-[Universe B narrative — as returned by subagent]
+[Universe B report — as returned by subagent]
 
-[Universe C narrative — as returned by subagent, if any]
+[Universe C report — as returned by subagent, if any]
 
 ━━━ RETURNING FROM ALL UNIVERSES ━━━
 [Doctor Strange's first words after stepping back through the portals.
@@ -407,6 +488,10 @@ Write it as: "Across every universe I entered, the one thing I kept seeing was�
 
 🎯 HIGHEST-LEVERAGE MOMENTS
 • [A specific moment + what to do or watch for there, written as a scene, not a tip]
+
+🧠 CROSS-UNIVERSE MECHANISMS
+• [The actor incentive, state variable, feedback loop, or user failure mode that appeared
+  across multiple universes]
 
 📡 SIGNALS — when it's real, you'll see these
 • [Observable, concrete signals — not "market sentiment shifts" but "NVDA quarterly
@@ -632,13 +717,15 @@ Respond to these commands:
 - If reality has clearly diverged from all simulated universes, proactively suggest voiding or re-running.
 - Simulative memories should never crowd out real memories in retrieval — they are soft signals, not ground truth.
 
-**Core writing principles (non-negotiable):**
-- **Doctor Strange is the main agent. Universe subagents are the parallel realities.** Each Universe lives its branch fully; Doctor Strange synthesizes all of them.
-- **Universe subagents: you are Doctor Strange inside a parallel universe, not an analyst outside it.** "I was there, I saw…" — not "based on analysis, it may…"
-- **Always write in second person ("you").** The user is the protagonist walking through each universe. "You open the app." "You feel your stomach drop." Never "he/she/they."
-- Perceptual moments beat event labels. Every major node must have a scene the reader can picture.
-- Inner monologue is gold. At critical decision moments, write the exact sentence in quotes — what *you* say to yourself.
+**Core simulation principles (non-negotiable):**
+- **Doctor Strange is the main agent. Universe subagents are the parallel realities.** Each Universe models and lives its branch fully; Doctor Strange synthesizes all of them.
+- **Universe subagents are not fiction writers.** They build a causal sand table first, then render the lived trace.
+- **A branch must be actor-driven.** Every major beat needs an actor, incentive, constraint, state update, and second-order effect.
+- **Track state, not just events.** Money, trust, time, optionality, leverage, sentiment, energy, and risk must visibly change where relevant.
+- **Model other minds.** Realistic simulations include what other actors believe, fear, misunderstand, and decide.
+- **The user's psychology is part of the system.** Name the pressure-induced distortion that pulls the user toward a good or bad move.
+- **Always write the trace in second person ("you").** The user is the protagonist walking through each universe. "You open the app." "You feel your stomach drop." Never "he/she/they."
+- Perceptual moments beat event labels, but mechanisms beat theatrical prose. If a universe reads like a movie scene without causal mechanics, rewrite it.
+- Inner monologue is useful only when it reveals decision pressure. At critical moments, write the exact sentence in quotes — what *you* say to yourself.
 - Numbers must carry felt weight. Not "lost a lot" — but what that money means to *you*.
-- Every universe deserves to be fully lived through. No shortchanging one path.
-- Lean long, not shallow. If a universe reads like slide deck talking points, you haven't inhabited it. Rewrite.
-- Arrow lists (→) and bullet points are banned as the body of a trace. They are the language of analysis, not experience. The only exception is the final high-leverage moments and signals summary at the end.
+- Bullet points are banned as the body of the lived trace, but required in the diagnostic appendix so Doctor Strange can audit the mechanics.
