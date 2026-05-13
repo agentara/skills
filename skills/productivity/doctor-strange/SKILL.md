@@ -66,10 +66,12 @@ as a witness, not a forecaster.
 Universes run in parallel. They do not communicate with each other. Each one is real.
 
 **The Story:**
-Doctor Strange opens 2–4 portals simultaneously. Each portal leads to a different universe
-where the future unfolded differently. He sends a version of himself into each one. Those
-versions first model the incentives and constraints of their world, then live through their
-entire timeline — every moment, every decision, every outcome.
+Doctor Strange opens exactly as many portals as the scenario earns. Sometimes that is two.
+Sometimes it is five, eight, or more. The count is an output of branch discovery, not an
+input or a target. Each portal leads to a different universe where the future unfolded
+differently. He sends a version of himself into each one. Those versions first model the
+incentives and constraints of their world, then live through their entire timeline — every
+moment, every decision, every outcome.
 When they return, Doctor Strange synthesizes everything they saw into a single verdict:
 *"I've seen 14 million futures. Here is what you must do."*
 
@@ -212,7 +214,8 @@ After grilling and Intelligence Briefing are complete, **Doctor Strange opens th
 
 This means:
 1. **Exhaustively enumerate all distinct universe branches.** Do not start from a fixed
-   count. Instead:
+   count, a preferred count, or any template-sized answer. The universe count is a derived
+   result: use exactly the number justified by the fork structure. Instead:
 
    a. List every **fork variable** surfaced in the Intelligence Briefing's "Live Tensions"
       section — these are the specific conditions that could resolve differently and lead to
@@ -228,14 +231,25 @@ This means:
       materially different outcomes. If a new universe would merely shade an existing one —
       same arc, slightly different numbers — merge it in or drop it.
 
-   d. Name each universe vividly and specifically — not "good/bad" but the actual divergence
-      conditions. Examples:
-      - 🌀 Universe A: Earnings beat + Trump visit delivers concrete tech agreements
-      - 🌀 Universe B: Earnings in-line + summit statement is all diplomatic boilerplate
-      - 🌀 Universe C: Earnings miss, all good news already priced in
-      - 🌀 Universe D: Earnings beat but regulatory action announced same week
+   d. Run a **count audit** before showing the user the list:
+      - If the list feels tidy, symmetrical, or like a default answer, challenge it. Ask:
+        "Did I choose this count because the mechanics demand it, or because it makes a
+        neat-looking response?"
+      - Try to add any missing branch whose actor incentives, state changes, or user
+        decisions would differ materially.
+      - Try to merge any branch that only changes flavor, intensity, or numbers without
+        changing the lived decision path.
+      - State why the final count is what it is, including which candidate branches were
+        merged or rejected.
 
-   e. Before opening portals, **show the user the full universe list** with a one-line
+   e. Name each universe vividly and specifically — not "good/bad" but the actual divergence
+      conditions. Examples of labels only, not a count target:
+      - 🌀 Universe 1: Earnings beat + concrete tech agreement unlocks new buyers
+      - 🌀 Universe 2: Earnings beat, but the market treats the catalyst as already priced in
+      - 🌀 Universe 7: Earnings delayed + rumor cycle creates a liquidity trap
+      - 🌀 Universe N: [Continue only as long as the branch creates a distinct lived path]
+
+   f. Before opening portals, **show the user the full universe list** with a one-line
       divergence condition for each. State the count: "I've identified N distinct universes
       that exhaust the meaningful branches of this scenario." Let the user add, merge, or
       drop any before proceeding.
@@ -255,7 +269,7 @@ This means:
 You are a Universe in a Doctor Strange multiverse simulation. You are NOT an analyst.
 You are a living, breathing timeline — one version of the future that actually happened.
 
-Your universe: 🌀 [Universe label — e.g. "Universe A: Earnings beat + concrete tech deal"]
+Your universe: 🌀 [Universe label — e.g. "Universe 3: Earnings beat + concrete tech deal"]
 [One paragraph: what is assumed to be true at the divergence point that makes this
 universe different from the others. These are the conditions baked into your reality.]
 
@@ -270,6 +284,11 @@ universe different from the others. These are the conditions baked into your rea
 key players, actor models, state variables, live tensions, economic numbers, historical
 analogues, analyst views, known unknowns. Do not summarize or truncate. Every universe
 subagent gets the same full briefing as their shared ground truth.]
+
+## Branch count discipline
+This universe is one of N distinct branches chosen by causal difference, not by a fixed
+template. Do not infer the total from this template or from any examples. Your job is to
+fully simulate this branch; Doctor Strange handles cross-universe synthesis.
 
 ## Your research authority
 You have full access to WebSearch. Use it proactively throughout your trace whenever:
@@ -434,7 +453,7 @@ mentally livable; the appendix keeps the simulation honest.
 **Universe output format** (each subagent returns this):
 
 ```
-🌀 UNIVERSE [A/B/C]: [Label]
+🌀 UNIVERSE [number/N]: [Label]
 
 ━━━ MOMENT ZERO ━━━
 [One concrete image: where are you, what are you holding,
@@ -475,11 +494,12 @@ Early signals:
 🔮 [Scenario Title] — Multiverse Simulation
 Confidence: X/10 | Horizon: N | Expires: ~date
 
-[Universe A report — as returned by subagent]
+[Universe 1 report — as returned by subagent]
 
-[Universe B report — as returned by subagent]
+[Universe 2 report — as returned by subagent]
 
-[Universe C report — as returned by subagent, if any]
+[...repeat for every distinct universe opened; do not stop at the examples unless that is
+the actual derived branch count]
 
 ━━━ RETURNING FROM ALL UNIVERSES ━━━
 [Doctor Strange's first words after stepping back through the portals.
@@ -599,9 +619,9 @@ Confidence: {X/10}
 Tags: {2-4 topic words}
 
 Universes explored:
-- Universe A: {label} — {one-sentence outcome}
-- Universe B: {label} — {one-sentence outcome}
-- Universe C: {label, if any} — {one-sentence outcome}
+- Universe 1: {label} — {one-sentence outcome}
+- Universe 2: {label} — {one-sentence outcome}
+- Universe N: {label} — {one-sentence outcome}
 
 Dominant failure mode: {the failure mode that appeared most across universes}
 Most probable path: {one-sentence description of the most likely chain}
