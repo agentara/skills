@@ -29,7 +29,7 @@ General workflow tools, not code-specific.
 
 - **[article-to-html](skills/productivity/article-to-html/SKILL.md)** — Render markdown drafts or conversation documents into self-contained paper-style HTML pages with inline CSS, SVG figures, callouts, tables, and optional interactivity.
 - **[doctor-strange](skills/productivity/doctor-strange/SKILL.md)** — Run causal sand-table simulations of future scenarios through parallel universe subagents, then store and recall the projections as soft priors.
-- **[meta-goal-prompt](skills/productivity/meta-goal-prompt/SKILL.md)** — Interview the user about a long-horizon task and output a filled-in `/goal` mega prompt ready to paste into Claude Code or Codex CLI.
+- **[mega-goal-prompt](skills/productivity/mega-goal-prompt/SKILL.md)** — Interview the user about a long-horizon task and output a filled-in `/goal` mega prompt ready to paste into Claude Code or Codex CLI.
 
 ## Installing a Skill
 

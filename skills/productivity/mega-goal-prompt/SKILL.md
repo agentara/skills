@@ -1,5 +1,5 @@
 ---
-name: meta-goal-prompt
+name: mega-goal-prompt
 description: >
   Generate a /goal mega prompt for Claude Code or Codex CLI by interviewing the user about their task.
   Use when the user wants to define a long-horizon autonomous goal — migration, refactor, feature build,
@@ -11,7 +11,7 @@ description: >
   ready to paste into Claude Code or Codex.
 ---
 
-# Meta-Goal Prompt Generator
+# Mega-Goal Prompt Generator
 
 Interview the user about their task, one question at a time, until you have everything needed to fill in the `/goal` mega prompt template. Then output the completed prompt.
 
