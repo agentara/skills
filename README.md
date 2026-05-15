@@ -11,6 +11,7 @@ A personal library of Claude Code skills — installable prompt extensions that 
 
 AI-generated content tools for video planning, visual continuity, storyboards, and key art.
 
+- **[presentation-design](skills/aigc/presentation-design/SKILL.md)** — Plan and generate a premium 6-slide presentation design board as one single composite image, with a named layout library and light/dark style modes.
 - **[video-character-design](skills/aigc/video-character-design/SKILL.md)** — Create reusable character design specs and character sheets for video, storyboard, advertising, animation, or AI video-generation workflows.
 - **[video-plan](skills/aigc/video-plan/SKILL.md)** — Plan short-form videos by choosing a story arc, visual style, duration, and scene-by-scene structure.
 - **[video-poster-design](skills/aigc/video-poster-design/SKILL.md)** — Create cinematic poster concepts and final key art from a brief, video plan, storyboard, or character design.
