@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Site Publisher"
+  short_description: "Research, illustrate, build, and deploy share sites"
+  default_prompt: "Use $publish-research-site to turn this thesis into a researched interactive website and deploy it."

@@ -32,6 +32,7 @@ General workflow tools, not code-specific.
 - **[article-to-html](skills/productivity/article-to-html/SKILL.md)** — Render markdown drafts or conversation documents into self-contained paper-style HTML pages with inline CSS, SVG figures, callouts, tables, and optional interactivity.
 - **[doctor-strange](skills/productivity/doctor-strange/SKILL.md)** — Run causal sand-table simulations of future scenarios through parallel universe subagents, then store and recall the projections as soft priors.
 - **[mega-goal-prompt](skills/productivity/mega-goal-prompt/SKILL.md)** — Interview the user about a long-horizon task and output a filled-in `/goal` mega prompt ready to paste into Claude Code or Codex CLI.
+- **[publish-research-site](skills/productivity/publish-research-site/SKILL.md)** — Turn a thesis, proposition, trend, question, or explainer topic into a citation-backed, image-rich, interactive website and deploy it with Vercel CLI.
 
 ## Installing a Skill
 
