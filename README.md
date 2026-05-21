@@ -29,6 +29,7 @@ Health and wellness tools for triage and report interpretation.
 
 General workflow tools, not code-specific.
 
+- **[feature-dev-loop](skills/productivity/feature-dev-loop/SKILL.md)** — End-to-end orchestration for PR-sized feature development: requirements baseline, multi-perspective plan review, safe serial implementation, dynamic acceptance matrix, and HTML PR summary.
 - **[article-to-html](skills/productivity/article-to-html/SKILL.md)** — Render markdown drafts or conversation documents into self-contained paper-style HTML pages with inline CSS, SVG figures, callouts, tables, and optional interactivity.
 - **[doctor-strange](skills/productivity/doctor-strange/SKILL.md)** — Run causal sand-table simulations of future scenarios through parallel universe subagents, then store and recall the projections as soft priors.
 - **[mega-goal-prompt](skills/productivity/mega-goal-prompt/SKILL.md)** — Interview the user about a long-horizon task and output a filled-in `/goal` mega prompt ready to paste into Claude Code or Codex CLI.
