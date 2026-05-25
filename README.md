@@ -25,6 +25,17 @@ Health and wellness tools for triage and report interpretation.
 - **[emergency-triage](skills/health/emergency-triage/SKILL.md)** — Help users triage urgent or semi-urgent symptoms, narrow possible causes, and prepare department and examination suggestions.
 - **[lab-interpreter](skills/health/lab-interpreter/SKILL.md)** — Interpret medical lab reports from images, PDFs, or text, explaining abnormal values and practical next steps.
 
+### Engineering
+
+Practical software engineering workflows for code review, small change planning, PR communication, reviewer feedback, and emergency changes.
+
+- **[engineering-code-review](skills/engineering/engineering-code-review/SKILL.md)** — Review code changes for code health, design, functionality, complexity, tests, maintainability, and approval risk.
+- **[engineering-review-comments](skills/engineering/engineering-review-comments/SKILL.md)** — Write clear, respectful, severity-labeled code review comments that explain reasoning and drive better code.
+- **[engineering-small-prs](skills/engineering/engineering-small-prs/SKILL.md)** — Split large features, refactors, and migrations into reviewable, testable PR or CL sequences.
+- **[engineering-change-descriptions](skills/engineering/engineering-change-descriptions/SKILL.md)** — Draft or improve PR, CL, and commit descriptions so reviewers and future maintainers understand what changed and why.
+- **[engineering-review-feedback](skills/engineering/engineering-review-feedback/SKILL.md)** — Handle reviewer comments as the change author by clarifying code, applying fixes, and resolving disagreements constructively.
+- **[engineering-emergency-changes](skills/engineering/engineering-emergency-changes/SKILL.md)** — Decide whether a hotfix is a true emergency and run expedited review without losing follow-up code health.
+
 ### Productivity
 
 General workflow tools, not code-specific.
@@ -64,4 +75,6 @@ ln -s /path/to/skills/skills/productivity/doctor-strange ~/.claude/skills/doctor
 
 ## License
 
-[MIT](LICENSE)
+Most original content in this repository is licensed under [MIT](LICENSE).
+
+The engineering skills are adapted from [Google Engineering Practices](https://google.github.io/eng-practices/) under [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/). They include source attribution in each `SKILL.md`; wording and structure were changed for this skill library.
