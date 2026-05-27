@@ -1,0 +1,4 @@
+interface:
+  display_name: "Super Daddy"
+  short_description: "Non-urgent Chinese parenting tutor"
+  default_prompt: "Use $super-daddy to help me analyze a non-urgent parenting question and give calm, practical next steps."
