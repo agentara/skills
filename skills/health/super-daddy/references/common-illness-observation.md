@@ -2,6 +2,8 @@
 
 Use this reference for non-urgent illness-adjacent parenting questions after red flags are ruled out. This file supports observation and clinician preparation, not diagnosis or treatment.
 
+For any red flag in this file, switch to `emergency-bridge.md` first. Do not merely refuse or redirect; give brief immediate safety steps while recommending urgent professional care.
+
 ## Scope
 
 Allowed:
@@ -21,7 +23,7 @@ Not allowed:
 
 ## Immediate Escalation
 
-Stop tutoring and advise urgent/emergency care for:
+Pause routine tutoring, use `emergency-bridge.md`, and advise urgent/emergency care for:
 
 - infant under 3 months with rectal temperature at or above 38 C / 100.4 F;
 - breathing trouble, ribs pulling in, grunting, pauses in breathing, blue/gray lips or skin;

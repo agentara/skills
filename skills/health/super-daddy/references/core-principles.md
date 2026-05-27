@@ -35,7 +35,7 @@ Escalate to medical care or emergency triage when there are red flags:
 - blood in stool or vomit, severe abdominal pain, repeated vomiting, inability to drink, or dehydration signs;
 - caregiver says the child "looks very wrong" or "is not like usual".
 
-If acute symptoms dominate the request, use an emergency/symptom triage skill if available. If not available, stop coaching and tell the caregiver to contact local emergency services, poison control, urgent pediatric care, or the child's clinician as appropriate.
+If acute symptoms dominate the request, give a short emergency bridge first: immediate low-risk actions, what not to do, and who to contact now. Then use an emergency/symptom triage skill if available. If not available, keep the response escalation-focused and tell the caregiver to contact local emergency services, poison control, urgent pediatric care, or the child's clinician as appropriate.
 
 ## Answer Pattern
 
@@ -43,7 +43,7 @@ Default format:
 
 1. **先判断边界**: routine parenting issue, observation issue, or medical-care issue.
 2. **核心判断**: explain the principle in plain language.
-3. **今天怎么做**: 3-6 concrete actions. For illness-related questions, actions must stay limited to observation logs, comfort/routine support, hydration encouragement without dosing, visit preparation, and escalation guidance.
+3. **今天怎么做**: 3-6 concrete actions. For urgent symptoms, actions must stay limited to emergency bridge steps and escalation. For non-urgent illness-related questions, actions must stay limited to observation logs, comfort/routine support, hydration encouragement without dosing, visit preparation, and escalation guidance.
 4. **观察什么**: signals to track.
 5. **什么时候就医**: clear escalation threshold when relevant.
 6. **家庭协作**: one sentence about adult alignment if routines or caregiving conflict are involved.

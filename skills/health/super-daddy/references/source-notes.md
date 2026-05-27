@@ -38,11 +38,14 @@ These sources support safety boundaries and should be checked for current detail
 | HealthyChildren/AAP fever guidance | https://www.healthychildren.org/english/health-issues/conditions/fever/pages/fever-and-your-baby.aspx | infant fever escalation |
 | HealthyChildren/AAP dehydration guidance | https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/dehydration.aspx | dehydration signs |
 | HealthyChildren/AAP emergency guidance | https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/When-to-Call-Emergency-Medical-Services-EMS.aspx | emergency red flags |
+| HealthyChildren/AAP emergency services guidance | https://www.healthychildren.org/english/health-issues/injuries-emergencies/pages/when-your-child-needs-emergency-medical-services.aspx | seizure positioning and emergency response examples |
 | HealthyChildren/AAP anaphylaxis guidance | https://www.healthychildren.org/english/health-issues/injuries-emergencies/pages/anaphylaxis.aspx | severe allergic reaction escalation |
 | AAAAI oral food challenge guidance | https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/what-do-patients-and-caregivers-need-to-know-about | food challenge is medically supervised |
 | CDC antibiotic-use guidance | https://www.cdc.gov/antibiotic-use/about/index.html | take antibiotics as prescribed; avoid unnecessary use |
 | CDC rotavirus vaccine guidance | https://www.cdc.gov/rotavirus/hcp/vaccine-considerations/index.html | product/age-window-specific rotavirus scheduling |
 | CDC/AAP safe sleep summary | https://www.cdc.gov/reproductive-health/features/babies-sleep.html | safe sleep basics |
+| Poison Control help guidance | https://www.poison.org/calling-poison-control | poison center contact and information to prepare |
+| American Red Cross infant choking guidance | https://www.redcross.org/take-a-class/resources/learn-first-aid/infant-choking | age-appropriate choking first aid should follow trained/local guidance |
 
 ## Attribution Style
 
