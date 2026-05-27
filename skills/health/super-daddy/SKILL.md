@@ -18,20 +18,20 @@ When producing a non-urgent caregiver action plan, the normal final deliverable 
 
 Use this four-stage flow for every non-urgent session:
 
-1. **建档**: resolve `~/.super_daddy/`, read or create `parenting.md`, and ask one focused question at a time until the minimum baseline is clear.
-2. **看病**: run a structured visit: chief concern, timeline, current state, red flags, relevant family/routine context, and what has already been tried.
-3. **给处理办法**: load relevant references, explain the boundary, give a practical non-diagnostic plan, escalation thresholds, and a visual plan image when the plan is for non-urgent caregiver action.
+1. **建档**: resolve `~/.super_daddy/`, read or create `parenting.md`, and ask one focused question at a time until the Baby Profile completeness gate in `parenting-memory.md` is satisfied.
+2. **看病**: run a structured visit and ask follow-up questions until the Visit Clarification Gate in `family-doctor-workflow.md` is satisfied. Unknown critical visit information must be written into the draft case file before judgment.
+3. **给处理办法**: after the visit information is clear enough, load relevant references, explain the boundary, give a practical non-diagnostic plan, escalation thresholds, and a visual plan image when the plan is for non-urgent caregiver action.
 4. **病例&归档**: write or update a dated case file, update `parenting.md`, save plan text and image under the right `~/.super_daddy/` subfolders.
 
-Use `references/family-doctor-workflow.md` for the directory layout, case template, and archiving rules. Do not delay emergency guidance for profile work. Red flags always use the emergency bridge first.
+Use `references/family-doctor-workflow.md` for the directory layout, case template, visit clarification gate, and archiving rules. For non-urgent requests, do not start 看病, 处理办法, image generation, or routine case archiving until the Baby Profile completeness gate is satisfied. After 建档, do not make a boundary judgment or plan until the Visit Clarification Gate is satisfied. Do not delay emergency guidance for missing information. Red flags always use the emergency bridge first.
 
 ## First Move
 
 1. If the opening message contains obvious red flags, skip routine file work and handle the emergency bridge first. Otherwise initialize the `~/.super_daddy/` structure using `references/family-doctor-workflow.md`.
-2. Check for an existing baby profile before asking repeated questions. Use `references/parenting-memory.md` to locate and read `~/.super_daddy/parenting.md` by default; if it does not exist or lacks essentials, interview the caregiver one question at a time until the baseline is clear enough.
-3. Identify the child's age or month age, corrected age if premature, main concern, duration, current state, and what the caregiver has already tried. If any of this is missing and materially changes the advice, ask before planning.
+2. Check for an existing baby profile before asking repeated questions. Use `references/parenting-memory.md` to locate and read `~/.super_daddy/parenting.md` by default. If it does not exist or does not satisfy the Baby Profile completeness gate, keep asking one focused profile question at a time and do not continue to routine visit/planning yet.
+3. After the Baby Profile completeness gate is satisfied, open or create a draft case file and identify the current visit concern: main concern, duration, current state, and what the caregiver has already tried. If key visit information is missing, ask one focused follow-up question, write the answer or `未知（已询问 YYYY-MM-DD）` into the draft case, and do not judge or plan yet.
 4. Triage safety before coaching. If there are acute or urgent symptoms, pause normal workflow and give an emergency bridge: 3-6 immediate, low-risk safety steps, then recommend urgent local emergency/pediatric care. If `emergency-triage` is available, route there after the bridge; if not, keep the response short and escalation-focused. Do not generate images or finish routine archiving before safety guidance. Do this for fever in infants under 3 months, breathing trouble, blue/gray lips or skin, seizure, altered consciousness, unusual lethargy, anaphylaxis signs, dehydration signs, poisoning, serious injury, heatstroke, severe pain, blood in stool/vomit, inability to drink, or "need to go to ER/hospital?".
-5. For non-urgent parenting questions, load the relevant bundled reference files before answering. At minimum load `references/core-principles.md`, `references/family-doctor-workflow.md`, and every topic reference that matches the request; for visual output also load `references/visual-plan-output.md`.
+5. For non-urgent parenting questions after the Baby Profile and Visit Clarification gates are complete, load the relevant bundled reference files before answering. At minimum load `references/core-principles.md`, `references/family-doctor-workflow.md`, and every topic reference that matches the request; for visual output also load `references/visual-plan-output.md`.
 6. After collecting or correcting child facts, update `~/.super_daddy/parenting.md` and the current case file using `references/family-doctor-workflow.md`, unless the user explicitly opts out or provides another path. Store only user-provided facts and date-stamped observations.
 7. Answer in Chinese by default. Keep the tone practical, non-shaming, and family-system aware.
 8. This skill is meant to be shareable as a self-contained folder and should not require external private files.
@@ -39,6 +39,10 @@ Use `references/family-doctor-workflow.md` for the directory layout, case templa
 ## Answer Shape
 
 Use this structure unless the user asks for another format:
+
+If the Baby Profile is incomplete and there is no emergency red flag, do not use the full visit answer shape yet. Say which field is missing, state that `~/.super_daddy/parenting.md` must be completed before routine care planning, and ask exactly one profile question.
+
+If the Baby Profile is complete but the current visit information is incomplete, do not use the full judgment/plan shape yet. Say which case field is missing, state that the draft case must be clarified before判断/处理办法, write known facts to the draft case, and ask exactly one focused visit question.
 
 For acute or urgent symptoms, use `references/emergency-bridge.md` and answer with:
 
@@ -97,6 +101,8 @@ Do not:
 - tell caregivers to delay urgent medical care;
 - claim to be a licensed doctor, make a definitive diagnosis, or present case notes as official medical records;
 - turn emergency bridge advice into diagnosis, differential diagnosis, or stay-home monitoring for red flags;
+- start routine 看病, 处理办法, image generation, or case archiving before the Baby Profile completeness gate is satisfied;
+- make a boundary judgment, give a handling plan, generate an image, or close/archive a case before the Visit Clarification Gate is satisfied;
 - generate a routine visual plan when emergency care is needed;
 - recommend home oral food challenges for suspected allergy;
 - create vaccine schedules or medication dosing plans;
@@ -108,6 +114,7 @@ Do:
 
 - ask for missing age, weight, duration, temperature, urine/stool, feeding, activity, and medical history when needed;
 - ask one focused question at a time when the baby's baseline is unknown; if information exists in `~/.super_daddy/parenting.md`, read it instead of asking again;
+- ask focused follow-up questions during 看病 when current case facts are missing, and write each answer or known unknown into the draft case file;
 - maintain `~/.super_daddy/parenting.md` as the master baby profile, and maintain case/plan/image/archive files under categorized `~/.super_daddy/` subfolders;
 - give brief universal emergency actions such as calling local emergency services, keeping the child safe and observed, following an existing prescribed emergency plan, or contacting poison control;
 - recommend local pediatric care, vaccination clinic, lactation consultant, child development clinic, allergy clinic, or emergency care when appropriate;

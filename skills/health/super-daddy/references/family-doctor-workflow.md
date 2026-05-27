@@ -34,20 +34,32 @@ Actions:
 
 - read `~/.super_daddy/parenting.md` if it exists;
 - create it from the template in `parenting-memory.md` if missing;
-- ask one focused question at a time when essential facts are missing;
+- ask one focused question at a time when required profile fields are missing;
 - update only user-provided or confirmed facts;
 - use `未知` rather than guessing.
 
-Minimum baseline:
+Completion gate:
 
-- child age/month age and corrected age if premature;
-- current concern and duration;
-- current state: activity, eating/drinking, sleep, urine/stool, and symptom-specific state;
-- relevant feeding/sleep/growth/allergy/medical/routine context.
+- Before non-urgent 看病, 处理办法, visual output, or routine case archive, the Baby Profile completeness gate in `parenting-memory.md` must be satisfied.
+- Unknown fields count as complete only after being explicitly asked and recorded as `未知（已询问 YYYY-MM-DD）`.
+- If the profile is incomplete, stop at 建档 and ask the next profile question.
+- Emergency red flags bypass this gate only for emergency bridge guidance.
 
 ## Stage 2: 看病
 
-Run a structured visit before planning:
+Run a structured visit before planning only after the Baby Profile completeness gate is satisfied.
+
+Open or create a draft case file under `~/.super_daddy/cases/YYYY-MM-DD_<topic>.md` as soon as the current concern is known. During the visit, write known facts into the draft case as they are collected.
+
+### Visit Clarification Gate
+
+Do not make a boundary judgment, give a handling plan, generate an image, or close/archive the case until every required visit field below has either:
+
+- a caregiver-provided or caregiver-confirmed value;
+- `不适用`;
+- or `未知（已询问 YYYY-MM-DD）` when the caregiver does not know or chooses not to answer.
+
+Required visit fields:
 
 - chief concern in caregiver words;
 - timeline: start, trend, triggers, what changed today;
@@ -56,11 +68,15 @@ Run a structured visit before planning:
 - what caregivers already tried and whether a clinician has given instructions;
 - family/routine context that affects execution.
 
+If the visit is illness-adjacent, include topic-specific fields from `common-illness-observation.md`, such as temperature method/trend for fever, breathing effort for cough, hydration for vomiting/diarrhea, or rash spread/exposures for rash.
+
+If a required field is missing, ask exactly one focused follow-up question, update the draft case, then check this gate again. Do not substitute a vague plan for missing facts.
+
 If red flags are present, stop routine workflow and use `emergency-bridge.md`. Do not wait to finish file updates.
 
 ## Stage 3: 给处理办法
 
-For non-urgent cases:
+For non-urgent cases after the Visit Clarification Gate is satisfied:
 
 - load relevant topic references before planning;
 - say the boundary: routine, home observation, clinician care, or emergency care;
@@ -78,7 +94,7 @@ Do not diagnose, prescribe, dose medicines, create vaccine schedules, or recomme
 After the plan:
 
 1. Update `~/.super_daddy/parenting.md` with stable facts and a dated observation-log summary.
-2. Write a case file under `~/.super_daddy/cases/YYYY-MM-DD_<topic>.md`.
+2. Complete the draft case file under `~/.super_daddy/cases/YYYY-MM-DD_<topic>.md`.
 3. Write the detailed text plan under `~/.super_daddy/plans/YYYY-MM-DD_<topic>_plan.md`.
 4. Save or move the imagegen final image under `~/.super_daddy/images/YYYY-MM-DD_<topic>_plan.png` when possible. If the runtime only returns a conversation image with no local file path, record `Visual plan: generated in conversation, not saved locally` in the case file and do not claim a saved path.
 5. Update `~/.super_daddy/cases/index.md` with case title, date, status, and file links.

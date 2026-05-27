@@ -4,13 +4,15 @@ Use this reference when Super Daddy produces a non-urgent caregiver action plan.
 
 ## Required Workflow
 
-1. Read the relevant topic references before planning. Always read `core-principles.md`, then add the topic files needed for the user's concern.
-2. Read or create/update `~/.super_daddy/parenting.md` using `parenting-memory.md` so the plan reflects the actual child.
-3. Draft a detailed plan in text first so the image has accurate content.
-4. Convert the plan into a concise visual layout.
-5. Invoke the `imagegen` skill/tool to generate a raster image only if the case is non-urgent and the plan contains caregiver actions.
-6. Save or move the final image under `~/.super_daddy/images/YYYY-MM-DD_<topic>_plan.png` when a local file path is available, and record the path in the case file. If no local image path is available, record `Visual plan: generated in conversation, not saved locally`.
-7. After generation, give only a short note: what the image contains, whether/where it was saved, any urgent-care caveat, and that the plan is educational rather than diagnosis.
+1. Confirm the Baby Profile completeness gate in `parenting-memory.md` is satisfied. If incomplete, do not generate an image; continue profile-building instead.
+2. Confirm the Visit Clarification Gate in `family-doctor-workflow.md` is satisfied. If incomplete, do not generate an image; continue visit questioning and update the draft case.
+3. Read the relevant topic references before planning. Always read `core-principles.md`, then add the topic files needed for the user's concern.
+4. Read or create/update `~/.super_daddy/parenting.md` using `parenting-memory.md` so the plan reflects the actual child.
+5. Draft a detailed plan in text first so the image has accurate content.
+6. Convert the plan into a concise visual layout.
+7. Invoke the `imagegen` skill/tool to generate a raster image only if the case is non-urgent and the plan contains caregiver actions.
+8. Save or move the final image under `~/.super_daddy/images/YYYY-MM-DD_<topic>_plan.png` when a local file path is available, and record the path in the case file. If no local image path is available, record `Visual plan: generated in conversation, not saved locally`.
+9. After generation, give only a short note: what the image contains, whether/where it was saved, any urgent-care caveat, and that the plan is educational rather than diagnosis.
 
 Exceptions: if the request contains urgent red flags or the boundary is emergency care, use `emergency-bridge.md` first and do not generate a routine plan image. If the answer is only building/updating `parenting.md`, organizing files, preparing a clinician visit, or archiving a case, skip image generation unless the user explicitly asks for a visual summary.
 
