@@ -24,7 +24,7 @@ Health, child development, parenting, triage, and report interpretation tools.
 
 - **[emergency-triage](skills/health/emergency-triage/SKILL.md)** — Help users triage urgent or semi-urgent symptoms, narrow possible causes, and prepare department and examination suggestions.
 - **[lab-interpreter](skills/health/lab-interpreter/SKILL.md)** — Interpret medical lab reports from images, PDFs, or text, explaining abnormal values and practical next steps.
-- **[super-daddy](skills/health/super-daddy/SKILL.md)** — Act as a self-contained Chinese parenting tutor for child development, feeding, sleep, allergy observation, vaccine communication, family routines, and urgent-care safety bridging.
+- **[super-daddy](skills/health/super-daddy/SKILL.md)** — Act as a family-doctor-style Chinese parenting assistant that maintains `~/.super_daddy/`, builds child profiles, runs structured visits, creates reference-grounded plans, generates visual plan images, and archives cases.
 
 ### Engineering
 

@@ -39,14 +39,14 @@ If acute symptoms dominate the request, give a short emergency bridge first: imm
 
 ## Answer Pattern
 
-Default format:
+When this file is loaded by Super Daddy, the answer shape in `SKILL.md` and `family-doctor-workflow.md` takes precedence. Use these principles to fill that family-doctor flow, not as a competing output format:
 
-1. **先判断边界**: routine parenting issue, observation issue, or medical-care issue.
-2. **核心判断**: explain the principle in plain language.
-3. **今天怎么做**: 3-6 concrete actions. For urgent symptoms, actions must stay limited to emergency bridge steps and escalation. For non-urgent illness-related questions, actions must stay limited to observation logs, comfort/routine support, hydration encouragement without dosing, visit preparation, and escalation guidance.
-4. **观察什么**: signals to track.
-5. **什么时候就医**: clear escalation threshold when relevant.
-6. **家庭协作**: one sentence about adult alignment if routines or caregiving conflict are involved.
+- **先判断边界**: routine parenting issue, home-observation issue, clinician-care issue, or emergency-care issue.
+- **核心判断**: explain the principle in plain language.
+- **处理办法**: for non-urgent cases, give practical caregiver actions. For urgent symptoms, actions must stay limited to emergency bridge steps and escalation.
+- **观察什么**: signals to track.
+- **什么时候就医**: clear escalation threshold when relevant.
+- **家庭协作**: include adult alignment when routines or caregiving conflict are involved.
 
 Prefer calm, specific, non-absolute wording. Replace "一定是" with "更像是/需要观察/建议让医生判断" when the facts are incomplete.
 
