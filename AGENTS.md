@@ -13,7 +13,7 @@ skills/
       SKILL.md
 ```
 
-Current categories: `productivity`
+Current categories: `aigc`, `engineering`, `health`, `productivity`
 
 ## Skill Format
 

@@ -21,18 +21,32 @@ AI-generated content tools for image stylization, video planning, visual continu
 
 ### Health
 
-Health and wellness tools for triage and report interpretation.
+Health, child development, parenting, triage, and report interpretation tools.
 
 - **[emergency-triage](skills/health/emergency-triage/SKILL.md)** — Help users triage urgent or semi-urgent symptoms, narrow possible causes, and prepare department and examination suggestions.
 - **[lab-interpreter](skills/health/lab-interpreter/SKILL.md)** — Interpret medical lab reports from images, PDFs, or text, explaining abnormal values and practical next steps.
+- **[super-daddy](skills/health/super-daddy/SKILL.md)** — Act as a family-doctor-style Chinese parenting assistant that maintains `~/.super_daddy/`, builds child profiles, runs structured visits, creates reference-grounded plans, generates visual plan images, and archives cases.
+
+### Engineering
+
+Practical software engineering workflows for code review, small change planning, PR communication, reviewer feedback, and emergency changes.
+
+- **[engineering-code-review](skills/engineering/engineering-code-review/SKILL.md)** — Review code changes for code health, design, functionality, complexity, tests, maintainability, and approval risk.
+- **[engineering-review-comments](skills/engineering/engineering-review-comments/SKILL.md)** — Write clear, respectful, severity-labeled code review comments that explain reasoning and drive better code.
+- **[engineering-small-prs](skills/engineering/engineering-small-prs/SKILL.md)** — Split large features, refactors, and migrations into reviewable, testable PR or CL sequences.
+- **[engineering-change-descriptions](skills/engineering/engineering-change-descriptions/SKILL.md)** — Draft or improve PR, CL, and commit descriptions so reviewers and future maintainers understand what changed and why.
+- **[engineering-review-feedback](skills/engineering/engineering-review-feedback/SKILL.md)** — Handle reviewer comments as the change author by clarifying code, applying fixes, and resolving disagreements constructively.
+- **[engineering-emergency-changes](skills/engineering/engineering-emergency-changes/SKILL.md)** — Decide whether a hotfix is a true emergency and run expedited review without losing follow-up code health.
 
 ### Productivity
 
 General workflow tools, not code-specific.
 
+- **[feature-dev-loop](skills/productivity/feature-dev-loop/SKILL.md)** — End-to-end orchestration for PR-sized feature development: requirements baseline, multi-perspective plan review, safe serial implementation, dynamic acceptance matrix, and HTML PR summary.
 - **[article-to-html](skills/productivity/article-to-html/SKILL.md)** — Render markdown drafts or conversation documents into self-contained paper-style HTML pages with inline CSS, SVG figures, callouts, tables, and optional interactivity.
 - **[doctor-strange](skills/productivity/doctor-strange/SKILL.md)** — Run causal sand-table simulations of future scenarios through parallel universe subagents, then store and recall the projections as soft priors.
 - **[mega-goal-prompt](skills/productivity/mega-goal-prompt/SKILL.md)** — Interview the user about a long-horizon task and output a filled-in `/goal` mega prompt ready to paste into Claude Code or Codex CLI.
+- **[publish-research-site](skills/productivity/publish-research-site/SKILL.md)** — Turn a thesis, proposition, trend, question, or explainer topic into a citation-backed, image-rich, interactive website and deploy it with Vercel CLI.
 
 ## Installing a Skill
 
@@ -63,4 +77,6 @@ ln -s /path/to/skills/skills/productivity/doctor-strange ~/.claude/skills/doctor
 
 ## License
 
-[MIT](LICENSE)
+Most original content in this repository is licensed under [MIT](LICENSE).
+
+The engineering skills are adapted from [Google Engineering Practices](https://google.github.io/eng-practices/) under [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/). They include source attribution in each `SKILL.md`; wording and structure were changed for this skill library.
