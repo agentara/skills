@@ -4,6 +4,7 @@ AI-generated content tools for image stylization, video planning, visual design,
 
 - **[presentation-design](presentation-design/SKILL.md)** — Plan and generate a premium 6-slide presentation design board as one single composite image, with a named layout library, light/dark style modes, mandatory deck plan, and self-reflection on the rendered result.
 - **[soviet-storybook-grotesque](soviet-storybook-grotesque/SKILL.md)** — Transform photos into strange, rough, faded Eastern European children's book illustrations with absurd handwritten rhymes.
+- **[torn-paper-collage-poster](torn-paper-collage-poster/SKILL.md)** — Create AI image-generation prompts and workflows for torn-paper editorial collage posters with layered ripped paper, rough typography, stamps, tape, stickers, cutout subjects, and photocopy texture.
 - **[video-plan](video-plan/SKILL.md)** — Plan short-form videos, vlogs, travel films, documentaries, or cinematic social clips by choosing a story arc and visual style, then breaking the idea into timed scenes.
 - **[video-character-design](video-character-design/SKILL.md)** — Create reusable character design specs and character sheet images for video, storyboard, advertising, animation, or AI video-generation workflows.
 - **[video-storyboard](video-storyboard/SKILL.md)** — Generate storyboard image boards and matching video-generation prompt scripts for specific scenes while preserving character, wardrobe, prop, and location continuity.
