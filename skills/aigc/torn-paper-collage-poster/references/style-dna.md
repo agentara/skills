@@ -1,5 +1,7 @@
 # Style DNA
 
+This file defines the default `torn-paper-editorial-collage` style. For style selection and non-default poster directions, read `poster-styles.md` first.
+
 Torn-paper editorial collage posters should feel like collectible visual evidence, not clean certificates, generic flyers, or presentation pages.
 
 ## Core Look
@@ -70,6 +72,12 @@ Never copy:
 - watermark
 - Chinese text from references
 
+## Text Policy
+
+This default style supports readable poster typography. Do not use `no readable text`, `no text`, or `no letters` as a negative prompt unless the user explicitly requests a textless poster.
+
+Use supplied titles, phrases, dates, labels, edition numbers, and quotes as large intentional poster text. If exact text is important and the image model struggles, reserve obvious text areas and recommend a deterministic typography overlay pass.
+
 ## Reject Checklist
 
 Reject or redraw if the result:
@@ -87,4 +95,5 @@ Reject or redraw if the result:
 - makes the poster overly dark, harsh, or high-contrast without explicit user direction
 - treats torn paper as a border effect instead of the main material language
 - hides the main data in unreadable microtext
+- applies a blanket no-text restriction when the user wanted poster typography or data
 - has weak theme energy
