@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World Cup Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Bebas+Neue&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="book-header">
+    <div class="brand-lockup">
+      <span class="book-mark">WCB</span>
+      <div>
+        <p class="eyebrow">World Cup Sportsbook</p>
+        <h1>Prediction Lines</h1>
+      </div>
+    </div>
+    <div class="header-tape">
+      <span>Forecast Board</span>
+      <time id="updated">Loading</time>
+    </div>
+  </header>
+
+  <aside class="market-ticker" aria-live="polite">
+    <div class="ticker-led"><span></span>Run status</div>
+    <div class="ticker-copy">
+      <strong id="live-stage">Board Closed</strong>
+      <p id="live-message">Waiting for forecast run</p>
+    </div>
+    <div id="run-stats" class="run-stats"></div>
+    <div class="replay-deck" id="replay-deck">
+      <button id="replay-live" type="button" title="Latest published forecast">Latest</button>
+      <button id="replay-prev" type="button" aria-label="Previous snapshot" title="Previous snapshot">⏮</button>
+      <button id="replay-toggle" type="button" aria-label="Play snapshots" title="Play snapshots">▶</button>
+      <button id="replay-next" type="button" aria-label="Next snapshot" title="Next snapshot">⏭</button>
+      <input id="replay-scrub" type="range" min="0" max="0" value="0" aria-label="Forecast snapshots">
+      <span id="replay-status">No snapshots</span>
+    </div>
+  </aside>
+
+  <main class="book-layout">
+    <section class="left-rail">
+      <div class="rail-head">
+        <p class="eyebrow">Draw</p>
+        <h2>Groups</h2>
+      </div>
+      <div id="bracket" class="group-board"></div>
+    </section>
+
+    <section class="main-book">
+      <div id="featured-market" class="featured-market"></div>
+
+      <div class="board-card">
+        <div class="board-title">
+          <div>
+            <p class="eyebrow">Match markets</p>
+            <h2>Lines Board</h2>
+          </div>
+          <div class="board-tools">
+            <span id="market-count" class="market-count">No markets</span>
+            <div class="market-columns" aria-hidden="true">
+              <span>Home</span>
+              <span>Draw</span>
+              <span>Away</span>
+            </div>
+          </div>
+        </div>
+        <div id="group-filter" class="group-filter" aria-label="Filter match markets by group"></div>
+        <div id="matches" class="lines-board"></div>
+      </div>
+
+    </section>
+
+    <aside class="right-rail">
+      <div class="board-card futures-card">
+        <div class="board-title">
+          <div>
+            <p class="eyebrow">Futures</p>
+            <h2>Champion Board</h2>
+          </div>
+        </div>
+        <div id="outrights"></div>
+      </div>
+
+      <div class="board-card match-detail-card" id="match-detail"></div>
+
+      <div class="bet-slip">
+        <div class="slip-top">
+          <p class="eyebrow">Ticket</p>
+          <strong>Model Slip</strong>
+        </div>
+        <div id="narrative" class="slip-body"></div>
+      </div>
+    </aside>
+
+    <section class="source-row">
+      <div class="rail-head">
+        <p class="eyebrow">Receipts</p>
+        <h2>Source Tape</h2>
+      </div>
+      <div id="sources" class="source-grid"></div>
+    </section>
+  </main>
+
+  <script src="app.js?v=20260615-ui-7"></script>
+</body>
+</html>

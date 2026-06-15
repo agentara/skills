@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-15T08:08:23.171853+00:00",
+  "sources": [
+    {
+      "name": "bootstrap groups",
+      "url": "/Users/taohe/Documents/world-cup-prediction-skill/world-cup-predictor/references/worldcup-2026-groups.json",
+      "status": "seed",
+      "note": "Replace with official live data before final predictions."
+    },
+    {
+      "name": "FIFA standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+      "status": "refresh-required"
+    },
+    {
+      "name": "Polymarket search",
+      "url": "https://polymarket.com/search?query=World%20Cup",
+      "status": "refresh-required"
+    }
+  ]
+}

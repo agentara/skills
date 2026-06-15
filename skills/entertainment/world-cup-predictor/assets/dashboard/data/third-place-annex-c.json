@@ -1,0 +1,11895 @@
+{
+  "source": "FWC2026 regulations Annex C",
+  "columns": [
+    "1A",
+    "1B",
+    "1D",
+    "1E",
+    "1G",
+    "1I",
+    "1K",
+    "1L"
+  ],
+  "rows": [
+    {
+      "option": 1,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "F",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "EFGHIJKL"
+    },
+    {
+      "option": 2,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DFGHIJKL"
+    },
+    {
+      "option": 3,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "D",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DEGHIJKL"
+    },
+    {
+      "option": 4,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DEFHIJKL"
+    },
+    {
+      "option": 5,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DEFGIJKL"
+    },
+    {
+      "option": 6,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DEFGHJKL"
+    },
+    {
+      "option": 7,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "DEFGHIKL"
+    },
+    {
+      "option": 8,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "DEFGHIJL"
+    },
+    {
+      "option": 9,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "DEFGHIJK"
+    },
+    {
+      "option": 10,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "C",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CFGHIJKL"
+    },
+    {
+      "option": 11,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CEGHIJKL"
+    },
+    {
+      "option": 12,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CEFHIJKL"
+    },
+    {
+      "option": 13,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CEFGIJKL"
+    },
+    {
+      "option": 14,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CEFGHJKL"
+    },
+    {
+      "option": 15,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CEFGHIKL"
+    },
+    {
+      "option": 16,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CEFGHIJL"
+    },
+    {
+      "option": 17,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CEFGHIJK"
+    },
+    {
+      "option": 18,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "C",
+        "J",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDGHIJKL"
+    },
+    {
+      "option": 19,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "I",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDFHIJKL"
+    },
+    {
+      "option": 20,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "I",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDFGIJKL"
+    },
+    {
+      "option": 21,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDFGHJKL"
+    },
+    {
+      "option": 22,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "I",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDFGHIKL"
+    },
+    {
+      "option": 23,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CDFGHIJL"
+    },
+    {
+      "option": 24,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CDFGHIJK"
+    },
+    {
+      "option": 25,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEHIJKL"
+    },
+    {
+      "option": 26,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "J",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEGIJKL"
+    },
+    {
+      "option": 27,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEGHJKL"
+    },
+    {
+      "option": 28,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEGHIKL"
+    },
+    {
+      "option": 29,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CDEGHIJL"
+    },
+    {
+      "option": 30,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "H",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CDEGHIJK"
+    },
+    {
+      "option": 31,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFIJKL"
+    },
+    {
+      "option": 32,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFHJKL"
+    },
+    {
+      "option": 33,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "I",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFHIKL"
+    },
+    {
+      "option": 34,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CDEFHIJL"
+    },
+    {
+      "option": 35,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CDEFHIJK"
+    },
+    {
+      "option": 36,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFGJKL"
+    },
+    {
+      "option": 37,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFGIKL"
+    },
+    {
+      "option": 38,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CDEFGIJL"
+    },
+    {
+      "option": 39,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CDEFGIJK"
+    },
+    {
+      "option": 40,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "CDEFGHKL"
+    },
+    {
+      "option": 41,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "CDEFGHJL"
+    },
+    {
+      "option": 42,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "CDEFGHJK"
+    },
+    {
+      "option": 43,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "CDEFGHIL"
+    },
+    {
+      "option": 44,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "CDEFGHIK"
+    },
+    {
+      "option": 45,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "H",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "CDEFGHIJ"
+    },
+    {
+      "option": 46,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BFGHIJKL"
+    },
+    {
+      "option": 47,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "B",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BEGHIJKL"
+    },
+    {
+      "option": 48,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BEFHIJKL"
+    },
+    {
+      "option": 49,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BEFGIJKL"
+    },
+    {
+      "option": 50,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BEFGHJKL"
+    },
+    {
+      "option": 51,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "F",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BEFGHIKL"
+    },
+    {
+      "option": 52,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "H",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BEFGHIJL"
+    },
+    {
+      "option": 53,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "H",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BEFGHIJK"
+    },
+    {
+      "option": 54,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDGHIJKL"
+    },
+    {
+      "option": 55,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDFHIJKL"
+    },
+    {
+      "option": 56,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDFGIJKL"
+    },
+    {
+      "option": 57,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDFGHJKL"
+    },
+    {
+      "option": 58,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDFGHIKL"
+    },
+    {
+      "option": 59,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BDFGHIJL"
+    },
+    {
+      "option": 60,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BDFGHIJK"
+    },
+    {
+      "option": 61,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEHIJKL"
+    },
+    {
+      "option": 62,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEGIJKL"
+    },
+    {
+      "option": 63,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEGHJKL"
+    },
+    {
+      "option": 64,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEGHIKL"
+    },
+    {
+      "option": 65,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BDEGHIJL"
+    },
+    {
+      "option": 66,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BDEGHIJK"
+    },
+    {
+      "option": 67,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFIJKL"
+    },
+    {
+      "option": 68,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFHJKL"
+    },
+    {
+      "option": 69,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFHIKL"
+    },
+    {
+      "option": 70,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BDEFHIJL"
+    },
+    {
+      "option": 71,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BDEFHIJK"
+    },
+    {
+      "option": 72,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFGJKL"
+    },
+    {
+      "option": 73,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFGIKL"
+    },
+    {
+      "option": 74,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BDEFGIJL"
+    },
+    {
+      "option": 75,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BDEFGIJK"
+    },
+    {
+      "option": 76,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BDEFGHKL"
+    },
+    {
+      "option": 77,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BDEFGHJL"
+    },
+    {
+      "option": 78,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BDEFGHJK"
+    },
+    {
+      "option": 79,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BDEFGHIL"
+    },
+    {
+      "option": 80,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BDEFGHIK"
+    },
+    {
+      "option": 81,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BDEFGHIJ"
+    },
+    {
+      "option": 82,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCGHIJKL"
+    },
+    {
+      "option": 83,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCFHIJKL"
+    },
+    {
+      "option": 84,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCFGIJKL"
+    },
+    {
+      "option": 85,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCFGHJKL"
+    },
+    {
+      "option": 86,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCFGHIKL"
+    },
+    {
+      "option": 87,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCFGHIJL"
+    },
+    {
+      "option": 88,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCFGHIJK"
+    },
+    {
+      "option": 89,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEHIJKL"
+    },
+    {
+      "option": 90,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEGIJKL"
+    },
+    {
+      "option": 91,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEGHJKL"
+    },
+    {
+      "option": 92,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEGHIKL"
+    },
+    {
+      "option": 93,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCEGHIJL"
+    },
+    {
+      "option": 94,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCEGHIJK"
+    },
+    {
+      "option": 95,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFIJKL"
+    },
+    {
+      "option": 96,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFHJKL"
+    },
+    {
+      "option": 97,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFHIKL"
+    },
+    {
+      "option": 98,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCEFHIJL"
+    },
+    {
+      "option": 99,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCEFHIJK"
+    },
+    {
+      "option": 100,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFGJKL"
+    },
+    {
+      "option": 101,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFGIKL"
+    },
+    {
+      "option": 102,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCEFGIJL"
+    },
+    {
+      "option": 103,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCEFGIJK"
+    },
+    {
+      "option": 104,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCEFGHKL"
+    },
+    {
+      "option": 105,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BCEFGHJL"
+    },
+    {
+      "option": 106,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BCEFGHJK"
+    },
+    {
+      "option": 107,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCEFGHIL"
+    },
+    {
+      "option": 108,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCEFGHIK"
+    },
+    {
+      "option": 109,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BCEFGHIJ"
+    },
+    {
+      "option": 110,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDHIJKL"
+    },
+    {
+      "option": 111,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDGIJKL"
+    },
+    {
+      "option": 112,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDGHJKL"
+    },
+    {
+      "option": 113,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDGHIKL"
+    },
+    {
+      "option": 114,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDGHIJL"
+    },
+    {
+      "option": 115,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDGHIJK"
+    },
+    {
+      "option": 116,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFIJKL"
+    },
+    {
+      "option": 117,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFHJKL"
+    },
+    {
+      "option": 118,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "I",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFHIKL"
+    },
+    {
+      "option": 119,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDFHIJL"
+    },
+    {
+      "option": 120,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDFHIJK"
+    },
+    {
+      "option": 121,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFGJKL"
+    },
+    {
+      "option": 122,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFGIKL"
+    },
+    {
+      "option": 123,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDFGIJL"
+    },
+    {
+      "option": 124,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDFGIJK"
+    },
+    {
+      "option": 125,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDFGHKL"
+    },
+    {
+      "option": 126,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "BCDFGHJL"
+    },
+    {
+      "option": 127,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "BCDFGHJK"
+    },
+    {
+      "option": 128,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDFGHIL"
+    },
+    {
+      "option": 129,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDFGHIK"
+    },
+    {
+      "option": 130,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "BCDFGHIJ"
+    },
+    {
+      "option": 131,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEIJKL"
+    },
+    {
+      "option": 132,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEHJKL"
+    },
+    {
+      "option": 133,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEHIKL"
+    },
+    {
+      "option": 134,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEHIJL"
+    },
+    {
+      "option": 135,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "H",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEHIJK"
+    },
+    {
+      "option": 136,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEGJKL"
+    },
+    {
+      "option": 137,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEGIKL"
+    },
+    {
+      "option": 138,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEGIJL"
+    },
+    {
+      "option": 139,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEGIJK"
+    },
+    {
+      "option": 140,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEGHKL"
+    },
+    {
+      "option": 141,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BCDEGHJL"
+    },
+    {
+      "option": 142,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BCDEGHJK"
+    },
+    {
+      "option": 143,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEGHIL"
+    },
+    {
+      "option": 144,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "H",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEGHIK"
+    },
+    {
+      "option": 145,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "D",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BCDEGHIJ"
+    },
+    {
+      "option": 146,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "E",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEFJKL"
+    },
+    {
+      "option": 147,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEFIKL"
+    },
+    {
+      "option": 148,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "E",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEFIJL"
+    },
+    {
+      "option": 149,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "E",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEFIJK"
+    },
+    {
+      "option": 150,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEFHKL"
+    },
+    {
+      "option": 151,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BCDEFHJL"
+    },
+    {
+      "option": 152,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BCDEFHJK"
+    },
+    {
+      "option": 153,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEFHIL"
+    },
+    {
+      "option": 154,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "H",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEFHIK"
+    },
+    {
+      "option": 155,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "H",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BCDEFHIJ"
+    },
+    {
+      "option": 156,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "E",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "BCDEFGKL"
+    },
+    {
+      "option": 157,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BCDEFGJL"
+    },
+    {
+      "option": 158,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BCDEFGJK"
+    },
+    {
+      "option": 159,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "E",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "BCDEFGIL"
+    },
+    {
+      "option": 160,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "E",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "BCDEFGIK"
+    },
+    {
+      "option": 161,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "J",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BCDEFGIJ"
+    },
+    {
+      "option": 162,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "BCDEFGHL"
+    },
+    {
+      "option": 163,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "BCDEFGHK"
+    },
+    {
+      "option": 164,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "J",
+        "F",
+        "D",
+        "E"
+      ],
+      "qualified_groups": "BCDEFGHJ"
+    },
+    {
+      "option": 165,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "H",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "BCDEFGHI"
+    },
+    {
+      "option": 166,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AFGHIJKL"
+    },
+    {
+      "option": 167,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "A",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AEGHIJKL"
+    },
+    {
+      "option": 168,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AEFHIJKL"
+    },
+    {
+      "option": 169,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AEFGIJKL"
+    },
+    {
+      "option": 170,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AEFGHJKL"
+    },
+    {
+      "option": 171,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "AEFGHIKL"
+    },
+    {
+      "option": 172,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "F",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "AEFGHIJL"
+    },
+    {
+      "option": 173,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "F",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "AEFGHIJK"
+    },
+    {
+      "option": 174,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADGHIJKL"
+    },
+    {
+      "option": 175,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADFHIJKL"
+    },
+    {
+      "option": 176,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADFGIJKL"
+    },
+    {
+      "option": 177,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADFGHJKL"
+    },
+    {
+      "option": 178,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADFGHIKL"
+    },
+    {
+      "option": 179,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ADFGHIJL"
+    },
+    {
+      "option": 180,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ADFGHIJK"
+    },
+    {
+      "option": 181,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEHIJKL"
+    },
+    {
+      "option": 182,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEGIJKL"
+    },
+    {
+      "option": 183,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEGHJKL"
+    },
+    {
+      "option": 184,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEGHIKL"
+    },
+    {
+      "option": 185,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ADEGHIJL"
+    },
+    {
+      "option": 186,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ADEGHIJK"
+    },
+    {
+      "option": 187,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFIJKL"
+    },
+    {
+      "option": 188,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFHJKL"
+    },
+    {
+      "option": 189,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFHIKL"
+    },
+    {
+      "option": 190,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ADEFHIJL"
+    },
+    {
+      "option": 191,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ADEFHIJK"
+    },
+    {
+      "option": 192,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFGJKL"
+    },
+    {
+      "option": 193,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFGIKL"
+    },
+    {
+      "option": 194,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ADEFGIJL"
+    },
+    {
+      "option": 195,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ADEFGIJK"
+    },
+    {
+      "option": 196,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ADEFGHKL"
+    },
+    {
+      "option": 197,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ADEFGHJL"
+    },
+    {
+      "option": 198,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ADEFGHJK"
+    },
+    {
+      "option": 199,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ADEFGHIL"
+    },
+    {
+      "option": 200,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ADEFGHIK"
+    },
+    {
+      "option": 201,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ADEFGHIJ"
+    },
+    {
+      "option": 202,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "C",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACGHIJKL"
+    },
+    {
+      "option": 203,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACFHIJKL"
+    },
+    {
+      "option": 204,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACFGIJKL"
+    },
+    {
+      "option": 205,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACFGHJKL"
+    },
+    {
+      "option": 206,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACFGHIKL"
+    },
+    {
+      "option": 207,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACFGHIJL"
+    },
+    {
+      "option": 208,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACFGHIJK"
+    },
+    {
+      "option": 209,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEHIJKL"
+    },
+    {
+      "option": 210,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEGIJKL"
+    },
+    {
+      "option": 211,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEGHJKL"
+    },
+    {
+      "option": 212,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEGHIKL"
+    },
+    {
+      "option": 213,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACEGHIJL"
+    },
+    {
+      "option": 214,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACEGHIJK"
+    },
+    {
+      "option": 215,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFIJKL"
+    },
+    {
+      "option": 216,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFHJKL"
+    },
+    {
+      "option": 217,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "I",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFHIKL"
+    },
+    {
+      "option": 218,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACEFHIJL"
+    },
+    {
+      "option": 219,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACEFHIJK"
+    },
+    {
+      "option": 220,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFGJKL"
+    },
+    {
+      "option": 221,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFGIKL"
+    },
+    {
+      "option": 222,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACEFGIJL"
+    },
+    {
+      "option": 223,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACEFGIJK"
+    },
+    {
+      "option": 224,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACEFGHKL"
+    },
+    {
+      "option": 225,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ACEFGHJL"
+    },
+    {
+      "option": 226,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ACEFGHJK"
+    },
+    {
+      "option": 227,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACEFGHIL"
+    },
+    {
+      "option": 228,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACEFGHIK"
+    },
+    {
+      "option": 229,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ACEFGHIJ"
+    },
+    {
+      "option": 230,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDHIJKL"
+    },
+    {
+      "option": 231,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDGIJKL"
+    },
+    {
+      "option": 232,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDGHJKL"
+    },
+    {
+      "option": 233,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDGHIKL"
+    },
+    {
+      "option": 234,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDGHIJL"
+    },
+    {
+      "option": 235,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDGHIJK"
+    },
+    {
+      "option": 236,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFIJKL"
+    },
+    {
+      "option": 237,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFHJKL"
+    },
+    {
+      "option": 238,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "F",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFHIKL"
+    },
+    {
+      "option": 239,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDFHIJL"
+    },
+    {
+      "option": 240,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "F",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDFHIJK"
+    },
+    {
+      "option": 241,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFGJKL"
+    },
+    {
+      "option": 242,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFGIKL"
+    },
+    {
+      "option": 243,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDFGIJL"
+    },
+    {
+      "option": 244,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDFGIJK"
+    },
+    {
+      "option": 245,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDFGHKL"
+    },
+    {
+      "option": 246,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "H"
+      ],
+      "qualified_groups": "ACDFGHJL"
+    },
+    {
+      "option": 247,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ACDFGHJK"
+    },
+    {
+      "option": 248,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDFGHIL"
+    },
+    {
+      "option": 249,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "F",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDFGHIK"
+    },
+    {
+      "option": 250,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ACDFGHIJ"
+    },
+    {
+      "option": 251,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEIJKL"
+    },
+    {
+      "option": 252,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEHJKL"
+    },
+    {
+      "option": 253,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEHIKL"
+    },
+    {
+      "option": 254,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEHIJL"
+    },
+    {
+      "option": 255,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEHIJK"
+    },
+    {
+      "option": 256,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEGJKL"
+    },
+    {
+      "option": 257,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "I",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEGIKL"
+    },
+    {
+      "option": 258,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEGIJL"
+    },
+    {
+      "option": 259,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEGIJK"
+    },
+    {
+      "option": 260,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEGHKL"
+    },
+    {
+      "option": 261,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ACDEGHJL"
+    },
+    {
+      "option": 262,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ACDEGHJK"
+    },
+    {
+      "option": 263,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEGHIL"
+    },
+    {
+      "option": 264,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEGHIK"
+    },
+    {
+      "option": 265,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "D",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ACDEGHIJ"
+    },
+    {
+      "option": 266,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEFJKL"
+    },
+    {
+      "option": 267,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "I",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEFIKL"
+    },
+    {
+      "option": 268,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEFIJL"
+    },
+    {
+      "option": 269,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "E",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEFIJK"
+    },
+    {
+      "option": 270,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEFHKL"
+    },
+    {
+      "option": 271,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ACDEFHJL"
+    },
+    {
+      "option": 272,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ACDEFHJK"
+    },
+    {
+      "option": 273,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEFHIL"
+    },
+    {
+      "option": 274,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "F",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEFHIK"
+    },
+    {
+      "option": 275,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "E",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ACDEFHIJ"
+    },
+    {
+      "option": 276,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ACDEFGKL"
+    },
+    {
+      "option": 277,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ACDEFGJL"
+    },
+    {
+      "option": 278,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ACDEFGJK"
+    },
+    {
+      "option": 279,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ACDEFGIL"
+    },
+    {
+      "option": 280,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "E",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ACDEFGIK"
+    },
+    {
+      "option": 281,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "J",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ACDEFGIJ"
+    },
+    {
+      "option": 282,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "F",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ACDEFGHL"
+    },
+    {
+      "option": 283,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ACDEFGHK"
+    },
+    {
+      "option": 284,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "J",
+        "C",
+        "A",
+        "F",
+        "D",
+        "E"
+      ],
+      "qualified_groups": "ACDEFGHJ"
+    },
+    {
+      "option": 285,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "E",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ACDEFGHI"
+    },
+    {
+      "option": 286,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "A",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABGHIJKL"
+    },
+    {
+      "option": 287,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "A",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABFHIJKL"
+    },
+    {
+      "option": 288,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABFGIJKL"
+    },
+    {
+      "option": 289,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABFGHJKL"
+    },
+    {
+      "option": 290,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "A",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABFGHIKL"
+    },
+    {
+      "option": 291,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABFGHIJL"
+    },
+    {
+      "option": 292,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABFGHIJK"
+    },
+    {
+      "option": 293,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEHIJKL"
+    },
+    {
+      "option": 294,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "I",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEGIJKL"
+    },
+    {
+      "option": 295,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "H",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEGHJKL"
+    },
+    {
+      "option": 296,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "A",
+        "I",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEGHIKL"
+    },
+    {
+      "option": 297,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "H",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABEGHIJL"
+    },
+    {
+      "option": 298,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "H",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABEGHIJK"
+    },
+    {
+      "option": 299,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFIJKL"
+    },
+    {
+      "option": 300,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFHJKL"
+    },
+    {
+      "option": 301,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFHIKL"
+    },
+    {
+      "option": 302,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABEFHIJL"
+    },
+    {
+      "option": 303,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABEFHIJK"
+    },
+    {
+      "option": 304,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFGJKL"
+    },
+    {
+      "option": 305,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "A",
+        "I",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFGIKL"
+    },
+    {
+      "option": 306,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABEFGIJL"
+    },
+    {
+      "option": 307,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABEFGIJK"
+    },
+    {
+      "option": 308,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "F",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABEFGHKL"
+    },
+    {
+      "option": 309,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABEFGHJL"
+    },
+    {
+      "option": 310,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABEFGHJK"
+    },
+    {
+      "option": 311,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "F",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABEFGHIL"
+    },
+    {
+      "option": 312,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "F",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABEFGHIK"
+    },
+    {
+      "option": 313,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABEFGHIJ"
+    },
+    {
+      "option": 314,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDHIJKL"
+    },
+    {
+      "option": 315,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDGIJKL"
+    },
+    {
+      "option": 316,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDGHJKL"
+    },
+    {
+      "option": 317,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDGHIKL"
+    },
+    {
+      "option": 318,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDGHIJL"
+    },
+    {
+      "option": 319,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDGHIJK"
+    },
+    {
+      "option": 320,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFIJKL"
+    },
+    {
+      "option": 321,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFHJKL"
+    },
+    {
+      "option": 322,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "I",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFHIKL"
+    },
+    {
+      "option": 323,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDFHIJL"
+    },
+    {
+      "option": 324,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDFHIJK"
+    },
+    {
+      "option": 325,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "F",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFGJKL"
+    },
+    {
+      "option": 326,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFGIKL"
+    },
+    {
+      "option": 327,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "F",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDFGIJL"
+    },
+    {
+      "option": 328,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "F",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDFGIJK"
+    },
+    {
+      "option": 329,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDFGHKL"
+    },
+    {
+      "option": 330,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABDFGHJL"
+    },
+    {
+      "option": 331,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABDFGHJK"
+    },
+    {
+      "option": 332,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDFGHIL"
+    },
+    {
+      "option": 333,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDFGHIK"
+    },
+    {
+      "option": 334,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABDFGHIJ"
+    },
+    {
+      "option": 335,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEIJKL"
+    },
+    {
+      "option": 336,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEHJKL"
+    },
+    {
+      "option": 337,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEHIKL"
+    },
+    {
+      "option": 338,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEHIJL"
+    },
+    {
+      "option": 339,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEHIJK"
+    },
+    {
+      "option": 340,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEGJKL"
+    },
+    {
+      "option": 341,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "A",
+        "I",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEGIKL"
+    },
+    {
+      "option": 342,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEGIJL"
+    },
+    {
+      "option": 343,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEGIJK"
+    },
+    {
+      "option": 344,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEGHKL"
+    },
+    {
+      "option": 345,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABDEGHJL"
+    },
+    {
+      "option": 346,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABDEGHJK"
+    },
+    {
+      "option": 347,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEGHIL"
+    },
+    {
+      "option": 348,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEGHIK"
+    },
+    {
+      "option": 349,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABDEGHIJ"
+    },
+    {
+      "option": 350,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEFJKL"
+    },
+    {
+      "option": 351,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEFIKL"
+    },
+    {
+      "option": 352,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEFIJL"
+    },
+    {
+      "option": 353,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEFIJK"
+    },
+    {
+      "option": 354,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEFHKL"
+    },
+    {
+      "option": 355,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABDEFHJL"
+    },
+    {
+      "option": 356,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABDEFHJK"
+    },
+    {
+      "option": 357,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEFHIL"
+    },
+    {
+      "option": 358,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEFHIK"
+    },
+    {
+      "option": 359,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABDEFHIJ"
+    },
+    {
+      "option": 360,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABDEFGKL"
+    },
+    {
+      "option": 361,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABDEFGJL"
+    },
+    {
+      "option": 362,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABDEFGJK"
+    },
+    {
+      "option": 363,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABDEFGIL"
+    },
+    {
+      "option": 364,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABDEFGIK"
+    },
+    {
+      "option": 365,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABDEFGIJ"
+    },
+    {
+      "option": 366,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABDEFGHL"
+    },
+    {
+      "option": 367,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABDEFGHK"
+    },
+    {
+      "option": 368,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "J"
+      ],
+      "qualified_groups": "ABDEFGHJ"
+    },
+    {
+      "option": 369,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABDEFGHI"
+    },
+    {
+      "option": 370,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCHIJKL"
+    },
+    {
+      "option": 371,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCGIJKL"
+    },
+    {
+      "option": 372,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCGHJKL"
+    },
+    {
+      "option": 373,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCGHIKL"
+    },
+    {
+      "option": 374,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCGHIJL"
+    },
+    {
+      "option": 375,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCGHIJK"
+    },
+    {
+      "option": 376,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFIJKL"
+    },
+    {
+      "option": 377,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFHJKL"
+    },
+    {
+      "option": 378,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "I",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFHIKL"
+    },
+    {
+      "option": 379,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCFHIJL"
+    },
+    {
+      "option": 380,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCFHIJK"
+    },
+    {
+      "option": 381,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFGJKL"
+    },
+    {
+      "option": 382,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFGIKL"
+    },
+    {
+      "option": 383,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCFGIJL"
+    },
+    {
+      "option": 384,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "F",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCFGIJK"
+    },
+    {
+      "option": 385,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCFGHKL"
+    },
+    {
+      "option": 386,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABCFGHJL"
+    },
+    {
+      "option": 387,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABCFGHJK"
+    },
+    {
+      "option": 388,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCFGHIL"
+    },
+    {
+      "option": 389,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCFGHIK"
+    },
+    {
+      "option": 390,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABCFGHIJ"
+    },
+    {
+      "option": 391,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "A",
+        "I",
+        "C",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEIJKL"
+    },
+    {
+      "option": 392,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEHJKL"
+    },
+    {
+      "option": 393,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEHIKL"
+    },
+    {
+      "option": 394,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEHIJL"
+    },
+    {
+      "option": 395,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEHIJK"
+    },
+    {
+      "option": 396,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEGJKL"
+    },
+    {
+      "option": 397,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "A",
+        "I",
+        "C",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEGIKL"
+    },
+    {
+      "option": 398,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEGIJL"
+    },
+    {
+      "option": 399,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEGIJK"
+    },
+    {
+      "option": 400,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEGHKL"
+    },
+    {
+      "option": 401,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCEGHJL"
+    },
+    {
+      "option": 402,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCEGHJK"
+    },
+    {
+      "option": 403,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "H",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEGHIL"
+    },
+    {
+      "option": 404,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "H",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEGHIK"
+    },
+    {
+      "option": 405,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "G",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCEGHIJ"
+    },
+    {
+      "option": 406,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEFJKL"
+    },
+    {
+      "option": 407,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEFIKL"
+    },
+    {
+      "option": 408,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEFIJL"
+    },
+    {
+      "option": 409,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEFIJK"
+    },
+    {
+      "option": 410,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEFHKL"
+    },
+    {
+      "option": 411,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCEFHJL"
+    },
+    {
+      "option": 412,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCEFHJK"
+    },
+    {
+      "option": 413,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEFHIL"
+    },
+    {
+      "option": 414,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEFHIK"
+    },
+    {
+      "option": 415,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCEFHIJ"
+    },
+    {
+      "option": 416,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCEFGKL"
+    },
+    {
+      "option": 417,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABCEFGJL"
+    },
+    {
+      "option": 418,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABCEFGJK"
+    },
+    {
+      "option": 419,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCEFGIL"
+    },
+    {
+      "option": 420,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCEFGIK"
+    },
+    {
+      "option": 421,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABCEFGIJ"
+    },
+    {
+      "option": 422,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCEFGHL"
+    },
+    {
+      "option": 423,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCEFGHK"
+    },
+    {
+      "option": 424,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "E",
+        "J"
+      ],
+      "qualified_groups": "ABCEFGHJ"
+    },
+    {
+      "option": 425,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCEFGHI"
+    },
+    {
+      "option": 426,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDIJKL"
+    },
+    {
+      "option": 427,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDHJKL"
+    },
+    {
+      "option": 428,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "I",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDHIKL"
+    },
+    {
+      "option": 429,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDHIJL"
+    },
+    {
+      "option": 430,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDHIJK"
+    },
+    {
+      "option": 431,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDGJKL"
+    },
+    {
+      "option": 432,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "I",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDGIKL"
+    },
+    {
+      "option": 433,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDGIJL"
+    },
+    {
+      "option": 434,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "G",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDGIJK"
+    },
+    {
+      "option": 435,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDGHKL"
+    },
+    {
+      "option": 436,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABCDGHJL"
+    },
+    {
+      "option": 437,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABCDGHJK"
+    },
+    {
+      "option": 438,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDGHIL"
+    },
+    {
+      "option": 439,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDGHIK"
+    },
+    {
+      "option": 440,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABCDGHIJ"
+    },
+    {
+      "option": 441,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDFJKL"
+    },
+    {
+      "option": 442,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "I",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDFIKL"
+    },
+    {
+      "option": 443,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDFIJL"
+    },
+    {
+      "option": 444,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDFIJK"
+    },
+    {
+      "option": 445,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "F",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDFHKL"
+    },
+    {
+      "option": 446,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "H"
+      ],
+      "qualified_groups": "ABCDFHJL"
+    },
+    {
+      "option": 447,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ABCDFHJK"
+    },
+    {
+      "option": 448,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "F",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDFHIL"
+    },
+    {
+      "option": 449,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "F",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDFHIK"
+    },
+    {
+      "option": 450,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ABCDFHIJ"
+    },
+    {
+      "option": 451,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDFGKL"
+    },
+    {
+      "option": 452,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABCDFGJL"
+    },
+    {
+      "option": 453,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABCDFGJK"
+    },
+    {
+      "option": 454,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDFGIL"
+    },
+    {
+      "option": 455,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDFGIK"
+    },
+    {
+      "option": 456,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABCDFGIJ"
+    },
+    {
+      "option": 457,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "H"
+      ],
+      "qualified_groups": "ABCDFGHL"
+    },
+    {
+      "option": 458,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ABCDFGHK"
+    },
+    {
+      "option": 459,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "J"
+      ],
+      "qualified_groups": "ABCDFGHJ"
+    },
+    {
+      "option": 460,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ABCDFGHI"
+    },
+    {
+      "option": 461,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDEJKL"
+    },
+    {
+      "option": 462,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "I",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDEIKL"
+    },
+    {
+      "option": 463,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDEIJL"
+    },
+    {
+      "option": 464,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDEIJK"
+    },
+    {
+      "option": 465,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDEHKL"
+    },
+    {
+      "option": 466,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCDEHJL"
+    },
+    {
+      "option": 467,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCDEHJK"
+    },
+    {
+      "option": 468,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDEHIL"
+    },
+    {
+      "option": 469,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDEHIK"
+    },
+    {
+      "option": 470,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "D",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCDEHIJ"
+    },
+    {
+      "option": 471,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDEGKL"
+    },
+    {
+      "option": 472,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "J"
+      ],
+      "qualified_groups": "ABCDEGJL"
+    },
+    {
+      "option": 473,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "J",
+        "K"
+      ],
+      "qualified_groups": "ABCDEGJK"
+    },
+    {
+      "option": 474,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDEGIL"
+    },
+    {
+      "option": 475,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDEGIK"
+    },
+    {
+      "option": 476,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "E",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "I",
+        "J"
+      ],
+      "qualified_groups": "ABCDEGIJ"
+    },
+    {
+      "option": 477,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCDEGHL"
+    },
+    {
+      "option": 478,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCDEGHK"
+    },
+    {
+      "option": 479,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "E",
+        "J"
+      ],
+      "qualified_groups": "ABCDEGHJ"
+    },
+    {
+      "option": 480,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "D",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCDEGHI"
+    },
+    {
+      "option": 481,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "K"
+      ],
+      "qualified_groups": "ABCDEFKL"
+    },
+    {
+      "option": 482,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCDEFJL"
+    },
+    {
+      "option": 483,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCDEFJK"
+    },
+    {
+      "option": 484,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "I"
+      ],
+      "qualified_groups": "ABCDEFIL"
+    },
+    {
+      "option": 485,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "E",
+        "B",
+        "D",
+        "A",
+        "F",
+        "I",
+        "K"
+      ],
+      "qualified_groups": "ABCDEFIK"
+    },
+    {
+      "option": 486,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "J",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCDEFIJ"
+    },
+    {
+      "option": 487,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "F",
+        "B",
+        "C",
+        "A",
+        "D",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCDEFHL"
+    },
+    {
+      "option": 488,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "K"
+      ],
+      "qualified_groups": "ABCDEFHK"
+    },
+    {
+      "option": 489,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "J",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "E"
+      ],
+      "qualified_groups": "ABCDEFHJ"
+    },
+    {
+      "option": 490,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "E",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "I"
+      ],
+      "qualified_groups": "ABCDEFHI"
+    },
+    {
+      "option": 491,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "L",
+        "E"
+      ],
+      "qualified_groups": "ABCDEFGL"
+    },
+    {
+      "option": 492,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "K"
+      ],
+      "qualified_groups": "ABCDEFGK"
+    },
+    {
+      "option": 493,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "J"
+      ],
+      "qualified_groups": "ABCDEFGJ"
+    },
+    {
+      "option": 494,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "C",
+        "G",
+        "B",
+        "D",
+        "A",
+        "F",
+        "E",
+        "I"
+      ],
+      "qualified_groups": "ABCDEFGI"
+    },
+    {
+      "option": 495,
+      "columns": [
+        "1A",
+        "1B",
+        "1D",
+        "1E",
+        "1G",
+        "1I",
+        "1K",
+        "1L"
+      ],
+      "values": [
+        "H",
+        "G",
+        "B",
+        "C",
+        "A",
+        "F",
+        "D",
+        "E"
+      ],
+      "qualified_groups": "ABCDEFGH"
+    }
+  ]
+}

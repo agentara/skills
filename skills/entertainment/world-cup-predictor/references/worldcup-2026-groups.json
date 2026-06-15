@@ -1,0 +1,23 @@
+{
+  "snapshot_date": "2026-06-14",
+  "status": "refreshed-live",
+  "source_notes": [
+    "Refresh before prediction. FIFA standings and fixture pages are preferred live sources.",
+    "This seed exists so the dashboard and workflow can start before live scraping succeeds.",
+    "Refreshed on 2026-06-15: Group F Play-off winner A resolved to Sweden; Group K Mali corrected to DR Congo from live draw/schedule sources."
+  ],
+  "groups": [
+    { "group": "A", "teams": ["Mexico", "South Africa", "South Korea", "Czech Republic"] },
+    { "group": "B", "teams": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"] },
+    { "group": "C", "teams": ["Brazil", "Morocco", "Haiti", "Scotland"] },
+    { "group": "D", "teams": ["United States", "Paraguay", "Australia", "Turkey"] },
+    { "group": "E", "teams": ["Germany", "Curacao", "Ivory Coast", "Ecuador"] },
+    { "group": "F", "teams": ["Netherlands", "Japan", "Sweden", "Tunisia"] },
+    { "group": "G", "teams": ["Belgium", "Egypt", "Iran", "New Zealand"] },
+    { "group": "H", "teams": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"] },
+    { "group": "I", "teams": ["France", "Senegal", "Norway", "Iraq"] },
+    { "group": "J", "teams": ["Argentina", "Algeria", "Austria", "Jordan"] },
+    { "group": "K", "teams": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"] },
+    { "group": "L", "teams": ["England", "Croatia", "Ghana", "Panama"] }
+  ]
+}

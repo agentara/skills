@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Cup Prediction Packet",
+  "type": "object",
+  "required": ["match_id", "agent_role", "generated_at", "market_type", "probabilities", "confidence", "simulation", "evidence", "risks"],
+  "properties": {
+    "match_id": { "type": "string" },
+    "round": { "type": "string", "examples": ["Group Stage", "Round of 32", "Round of 16", "Quarterfinal", "Semifinal", "Third-place Match", "Final"] },
+    "group": { "type": ["string", "null"] },
+    "status": { "type": "string", "enum": ["scheduled", "live", "finished"], "default": "scheduled" },
+    "final_score": {
+      "type": "object",
+      "properties": {
+        "home": { "type": "integer", "minimum": 0 },
+        "away": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "result_source": { "type": "string" },
+    "agent_role": { "type": "string", "enum": ["tactics", "markets", "team-news", "data-model", "synthesis", "merged"] },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "market_type": { "type": "string", "examples": ["90m-1x2", "advance", "champion"] },
+    "teams": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "probabilities": {
+      "type": "object",
+      "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+    },
+    "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+    "simulation": {
+      "type": "object",
+      "required": ["predicted_score", "halftime_score", "timeline", "momentum"],
+      "properties": {
+        "predicted_score": {
+          "type": "object",
+          "required": ["home", "away"],
+          "properties": {
+            "home": { "type": "integer", "minimum": 0 },
+            "away": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "halftime_score": {
+          "type": "object",
+          "required": ["home", "away"],
+          "properties": {
+            "home": { "type": "integer", "minimum": 0 },
+            "away": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "expected_goals": {
+          "type": "object",
+          "properties": {
+            "home": { "type": "number", "minimum": 0 },
+            "away": { "type": "number", "minimum": 0 }
+          }
+        },
+        "timeline": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["minute", "type", "team", "description", "probability"],
+            "properties": {
+              "minute": { "type": "string", "examples": ["12", "31-45+", "76-90+"] },
+              "type": { "type": "string", "examples": ["goal", "card", "injury", "substitution", "save", "tactical-switch", "fatigue"] },
+              "team": { "type": "string" },
+              "description": { "type": "string" },
+              "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+              "driver": { "type": "string", "examples": ["humidity", "injury", "set-piece edge", "market total"] }
+            }
+          }
+        },
+        "momentum": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["phase", "edge", "reason"],
+            "properties": {
+              "phase": { "type": "string", "examples": ["0-15", "16-30", "31-45+", "46-60", "61-75", "76-90+"] },
+              "edge": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        },
+        "alternate_scenarios": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "environmental_factors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["factor", "impact", "confidence"],
+        "properties": {
+          "factor": { "type": "string", "examples": ["humidity", "heat index", "altitude", "travel", "injury"] },
+          "impact": { "type": "string" },
+          "confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "source", "timestamp"],
+        "properties": {
+          "claim": { "type": "string" },
+          "source": { "type": "string" },
+          "timestamp": { "type": "string" }
+        }
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "stale_data_warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "updated_at": "2026-06-15T08:09:09.359866+00:00",
+  "results": [
+    {
+      "match_id": "GS-A-1",
+      "round": "Group Stage",
+      "group": "A",
+      "teams": [
+        "Mexico",
+        "South Africa"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359696+00:00"
+    },
+    {
+      "match_id": "GS-A-2",
+      "round": "Group Stage",
+      "group": "A",
+      "teams": [
+        "South Korea",
+        "Czech Republic"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359839+00:00"
+    },
+    {
+      "match_id": "GS-B-1",
+      "round": "Group Stage",
+      "group": "B",
+      "teams": [
+        "Canada",
+        "Bosnia and Herzegovina"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359841+00:00"
+    },
+    {
+      "match_id": "GS-B-2",
+      "round": "Group Stage",
+      "group": "B",
+      "teams": [
+        "Qatar",
+        "Switzerland"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359843+00:00"
+    },
+    {
+      "match_id": "GS-C-1",
+      "round": "Group Stage",
+      "group": "C",
+      "teams": [
+        "Brazil",
+        "Morocco"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359844+00:00"
+    },
+    {
+      "match_id": "GS-C-2",
+      "round": "Group Stage",
+      "group": "C",
+      "teams": [
+        "Haiti",
+        "Scotland"
+      ],
+      "final_score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359845+00:00"
+    },
+    {
+      "match_id": "GS-D-1",
+      "round": "Group Stage",
+      "group": "D",
+      "teams": [
+        "United States",
+        "Paraguay"
+      ],
+      "final_score": {
+        "home": 4,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359846+00:00"
+    },
+    {
+      "match_id": "GS-D-2",
+      "round": "Group Stage",
+      "group": "D",
+      "teams": [
+        "Australia",
+        "Turkey"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359847+00:00"
+    },
+    {
+      "match_id": "GS-E-1",
+      "round": "Group Stage",
+      "group": "E",
+      "teams": [
+        "Germany",
+        "Curacao"
+      ],
+      "final_score": {
+        "home": 7,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359848+00:00"
+    },
+    {
+      "match_id": "GS-E-2",
+      "round": "Group Stage",
+      "group": "E",
+      "teams": [
+        "Ivory Coast",
+        "Ecuador"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359849+00:00"
+    },
+    {
+      "match_id": "GS-F-1",
+      "round": "Group Stage",
+      "group": "F",
+      "teams": [
+        "Netherlands",
+        "Japan"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 2
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359850+00:00"
+    },
+    {
+      "match_id": "GS-F-2",
+      "round": "Group Stage",
+      "group": "F",
+      "teams": [
+        "Sweden",
+        "Tunisia"
+      ],
+      "final_score": {
+        "home": 5,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.theguardian.com/football/live/2026/jun/15/fifa-world-cup-2026-live-sweden-v-tunisia-updates-swe-vs-tun-group-f-match-score-latest",
+      "locked_at": "2026-06-15T08:09:09.359851+00:00"
+    }
+  ]
+}

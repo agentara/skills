@@ -19,6 +19,12 @@ AI-generated content tools for image stylization, video planning, visual continu
 - **[video-poster-design](skills/aigc/video-poster-design/SKILL.md)** — Create cinematic poster concepts and final key art from a brief, video plan, storyboard, or character design.
 - **[video-storyboard](skills/aigc/video-storyboard/SKILL.md)** — Generate storyboard image boards and matching video-generation prompt scripts for specific scenes.
 
+### Entertainment
+
+Sports forecasting and other fun, interactive prediction tools.
+
+- **[world-cup-predictor](skills/entertainment/world-cup-predictor/SKILL.md)** — Predict FIFA World Cup matches, full tournament paths, and champion probabilities through agent-native subagents that analyze live news, weather, injuries, markets, Polymarket, tactics, and tournament context while updating a real-time web dashboard.
+
 ### Health
 
 Health, child development, parenting, triage, and report interpretation tools.

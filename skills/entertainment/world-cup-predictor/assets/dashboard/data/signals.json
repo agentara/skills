@@ -1,0 +1,443 @@
+{
+  "generated_at": "2026-06-15T08:09:13.491792+00:00",
+  "teams": [
+    "Mexico",
+    "South Africa",
+    "South Korea",
+    "Czech Republic",
+    "Canada",
+    "Bosnia and Herzegovina",
+    "Qatar",
+    "Switzerland",
+    "Brazil",
+    "Morocco",
+    "Haiti",
+    "Scotland",
+    "United States",
+    "Paraguay",
+    "Australia",
+    "Turkey",
+    "Germany",
+    "Curacao",
+    "Ivory Coast",
+    "Ecuador",
+    "Netherlands",
+    "Japan",
+    "Sweden",
+    "Tunisia",
+    "Belgium",
+    "Egypt",
+    "Iran",
+    "New Zealand",
+    "Spain",
+    "Cape Verde",
+    "Saudi Arabia",
+    "Uruguay",
+    "France",
+    "Senegal",
+    "Norway",
+    "Iraq",
+    "Argentina",
+    "Algeria",
+    "Austria",
+    "Jordan",
+    "Portugal",
+    "DR Congo",
+    "Uzbekistan",
+    "Colombia",
+    "England",
+    "Croatia",
+    "Ghana",
+    "Panama"
+  ],
+  "locked_results": [
+    {
+      "match_id": "GS-A-1",
+      "round": "Group Stage",
+      "group": "A",
+      "teams": [
+        "Mexico",
+        "South Africa"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359696+00:00"
+    },
+    {
+      "match_id": "GS-A-2",
+      "round": "Group Stage",
+      "group": "A",
+      "teams": [
+        "South Korea",
+        "Czech Republic"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359839+00:00"
+    },
+    {
+      "match_id": "GS-B-1",
+      "round": "Group Stage",
+      "group": "B",
+      "teams": [
+        "Canada",
+        "Bosnia and Herzegovina"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359841+00:00"
+    },
+    {
+      "match_id": "GS-B-2",
+      "round": "Group Stage",
+      "group": "B",
+      "teams": [
+        "Qatar",
+        "Switzerland"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359843+00:00"
+    },
+    {
+      "match_id": "GS-C-1",
+      "round": "Group Stage",
+      "group": "C",
+      "teams": [
+        "Brazil",
+        "Morocco"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359844+00:00"
+    },
+    {
+      "match_id": "GS-C-2",
+      "round": "Group Stage",
+      "group": "C",
+      "teams": [
+        "Haiti",
+        "Scotland"
+      ],
+      "final_score": {
+        "home": 0,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359845+00:00"
+    },
+    {
+      "match_id": "GS-D-1",
+      "round": "Group Stage",
+      "group": "D",
+      "teams": [
+        "United States",
+        "Paraguay"
+      ],
+      "final_score": {
+        "home": 4,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359846+00:00"
+    },
+    {
+      "match_id": "GS-D-2",
+      "round": "Group Stage",
+      "group": "D",
+      "teams": [
+        "Australia",
+        "Turkey"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359847+00:00"
+    },
+    {
+      "match_id": "GS-E-1",
+      "round": "Group Stage",
+      "group": "E",
+      "teams": [
+        "Germany",
+        "Curacao"
+      ],
+      "final_score": {
+        "home": 7,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359848+00:00"
+    },
+    {
+      "match_id": "GS-E-2",
+      "round": "Group Stage",
+      "group": "E",
+      "teams": [
+        "Ivory Coast",
+        "Ecuador"
+      ],
+      "final_score": {
+        "home": 1,
+        "away": 0
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359849+00:00"
+    },
+    {
+      "match_id": "GS-F-1",
+      "round": "Group Stage",
+      "group": "F",
+      "teams": [
+        "Netherlands",
+        "Japan"
+      ],
+      "final_score": {
+        "home": 2,
+        "away": 2
+      },
+      "status": "finished",
+      "source": "https://www.foxsports.com/soccer/fifa-world-cup/scores",
+      "locked_at": "2026-06-15T08:09:09.359850+00:00"
+    },
+    {
+      "match_id": "GS-F-2",
+      "round": "Group Stage",
+      "group": "F",
+      "teams": [
+        "Sweden",
+        "Tunisia"
+      ],
+      "final_score": {
+        "home": 5,
+        "away": 1
+      },
+      "status": "finished",
+      "source": "https://www.theguardian.com/football/live/2026/jun/15/fifa-world-cup-2026-live-sweden-v-tunisia-updates-swe-vs-tun-group-f-match-score-latest",
+      "locked_at": "2026-06-15T08:09:09.359851+00:00"
+    }
+  ],
+  "news": [
+    {
+      "title": "USA vs. Paraguay lineups: Projected USMNT starting 11, team news for World Cup 2026 opener - NESN",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNXBtS2Y1NTBKYUo1c0FuQ2VqUUlVMG5iWkxKSzcwWHQ4TW5ndEp4Y0ctRzA1YVBLdGlxTEFCNkdkZmRSTXlXMk9VQXB3ZERVbU9UZWlES3F0RkEyRjlyR3dlVUtubm1yWV9tcXl1ZDk1QVFFUm9CTzdKRTVNUmVCa1Zla2ktZ25LMk8td25PRURQRm9sV0habDgzNzVhQndEMHdUUFlncldyWnM?oc=5",
+      "published": "Fri, 12 Jun 2026 20:49:00 GMT",
+      "query": "2026 FIFA World Cup injuries suspensions lineups"
+    },
+    {
+      "title": "Iran vs New Zealand Predictions, Bet Builder Tips, Lineups, Odds - WhoScored.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQVAyM3FMSnNmaHFITUR3ZHpybkgtVFlaOWpWeXNYQm1JQUg3OTktbzNkR2FzbFZQZ1IzeTFMazhhdTVULTlwUDZGOG5BajBBMkFabHprSmJkUVdhUV8tOU0zbk1xdk50bFdsMnBiX19lXzBvVi1UNXRTLUkyTkZSay1EUHBpTFdQWmp2UGNiQXl6TWlqQ29yeFdRSUctZjhGaTBkTENJWElucjVNRjNycy12TQ?oc=5",
+      "published": "Sun, 14 Jun 2026 13:10:00 GMT",
+      "query": "2026 FIFA World Cup injuries suspensions lineups"
+    },
+    {
+      "title": "USMNT XI vs. Germany: Pochettino Missing Star Defender\u2014Injury News, Predicted Lineup - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUFlM0Q3WTNfZTRBa3REaHd4TTVaQ3ppSWhndnVtOEROZ21uU0tjRnBWTjhyUnFoSHBnMDBKM0NYMThkdUNCbjlTSC0wdFZvQ204WFdSZDdGR2dERWx3aWJzT1Jxek9xSjh4Q0NsMU9aWEU3LTBKRkFNYlF1MzFZeDBjUkQ5SE5QamNBMWI4bmRwanNsUFVaWkw1R213SXBUa012NFdUaDVxUVE?oc=5",
+      "published": "Fri, 05 Jun 2026 19:00:03 GMT",
+      "query": "2026 FIFA World Cup injuries suspensions lineups"
+    },
+    {
+      "title": "Canada vs Bosnia and Herzegovina Predictions, Bet Builder Tips, Lineups, Odds - WhoScored.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONGl6Y0ZZaVJYVHVSM3dEamMxd3JOSmV4Tlh4OENuUTFlU3RpdE9ZYlFYMjhRWGMwVW82WktPTFUzRGdiN09VNDdESkQxWFFCZ0FERGluMlZiMU51bHRQZkZYQWhCYmV1TWh0eVVjM0lrV1VLa2Nfb0VBUElaSFZKTW84TjR1bldfTTJFeUttd1NGVHBJT3Y4N29Jb0ZsZVAyWklXclJUOUVIcXV1SUtMM2FBQ0YzaUluclNqNFRkN2ZkX2tFMDBneGwwNA?oc=5",
+      "published": "Thu, 11 Jun 2026 13:54:00 GMT",
+      "query": "2026 FIFA World Cup injuries suspensions lineups"
+    },
+    {
+      "title": "2026 World Cup Round of 32 Prediction Market Odds - DeFi Rate",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtS2xEekdfZklwVDJhbmhqUFFLRmxNa3JUQ2ptYklNTHotaGt0NU85QnR6c0x5NTNkcVpxNDNZeWxtUHFIN0MyMm02OVljMlh4U01DcFZNNXNYd0ZCZWhfcURHWTFDYms2RS1MQnQ3dXFxMkhUdUE?oc=5",
+      "published": "Sun, 14 Jun 2026 21:30:01 GMT",
+      "query": "2026 FIFA World Cup odds favorites Polymarket"
+    },
+    {
+      "title": "World Cup Predictions: How to Trade 2026 FIFA World Cup Odds at Polymarket & Kalshi - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdG1DYmxhMXhzUFlnUmFUdmJfWjAyTWg2NEliVVNiUjIyME1keFJQQXFXaVpacnVfUjVPS1VJZWZxUlRfNmtwOUhQTE5UQjhNcGtlbWwxUTl2V0xyYXhTNG1uak0taHhvYllXS1hmbjhGZ0hCTkZnbUNna3lFdFUtWkxDNk1ZVGJJOEJwQnRLX19jNzJtajdubVdyb1cxY0hIaTZaU25JWTEwNFd2SjVKME1DLVlZUGhMSFNwbXc2Mjk?oc=5",
+      "published": "Sun, 14 Jun 2026 04:38:00 GMT",
+      "query": "2026 FIFA World Cup odds favorites Polymarket"
+    },
+    {
+      "title": "2026 FIFA World Cup Odds, Favorites, and Prediction Markets - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTUdtODZhNVZWSUN1dFN3c0NlZHJxOThYZElwTDFER0JSZ21lT3o4aTFLdEdETTNfWC1Pc244aWtZV3paakFRZDUtcERULXVvSWQzTnpuWkwxXzhIVkp3MHZ3VkoyNWdWeEN4eFktbjZMdmNqSUhsQ2ROeGE3aEhQRHAxS3lJdkxaVEZWRDl4aFd3a2REUjhqaklWUWlhTVE?oc=5",
+      "published": "Tue, 09 Jun 2026 23:43:20 GMT",
+      "query": "2026 FIFA World Cup odds favorites Polymarket"
+    },
+    {
+      "title": "How to Trade on the World Cup in Your State With Kalshi and Polymarket - FOX Sports",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOU5BeXFxeTU0ck56eFE0VGJ1LTlIVl81VHNfT1ZiLU1ENmZEWGdHUFRtMFdHWGZKblJqcVNWZWwxVWhTQThhVmdmcTlNTnFxaklJN3NzWTZrUDVkRG92MzM0X0lBNVd2M01xZG1uRnlYcTBBbGdLQzRMa19aNW11a0lIZDdSc0hSM0dkTXk0MlFlV1VF0gGUAUFVX3lxTE5lYzg3VVVZdjlpaHlvenhnekFkZ19HSFR2SnJxVWlkV1M0SU84WkN0bWs1blFMTjVNYkttRjRDcHM2N3BTS2I2UXFFWWkwRlJ0cU5BNm1nYW5hOHQ1TGNvQ2Q5czczLWp3eS1ObmNpWi1NNXQ2eU1nRWVodDlfZmRYQU83RkFFQ3B5Y0NDbzBhdFp4eno?oc=5",
+      "published": "Thu, 11 Jun 2026 19:34:01 GMT",
+      "query": "2026 FIFA World Cup odds favorites Polymarket"
+    },
+    {
+      "title": "Volatile summer weather threatens to turn World Cup into test of heat - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNczFraVhEck8zLWE3Ukl4X01aYmV0dVI3d0VDLWtsLW5aNW5DNjl2ZVh3SkdlRnpabVhYd3M4aEVaUTFFd2VJU1pTN09zb2lGWVNPbXJPTVpENnBaSFV3YmtCYXJwQjZpVDJUWUlvR0t2VkExU1Jkekptd3JfUV94UGpiWWlUUU0wZTZRd1YwcFdhZmJydVlkQV8zRGQ0bnBHb0JoY2drWkpYMGdFWlRHVC1JYUxWazVwZmhmYw?oc=5",
+      "published": "Wed, 10 Jun 2026 14:25:13 GMT",
+      "query": "2026 FIFA World Cup weather heat humidity venues"
+    },
+    {
+      "title": "Weather tracker: heat, humidity and thunderstorms a danger at World Cup - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0VVUUhHNTE0NnRYcjRkVWJ6RUtJM2NKd3J3MG5NRWI3RDNXNUpNODZaZjVpYnBXU1ZDZ0JfUUdtLS04M2xsR3B2ejdHbXpaX2d0QWtacVU0dVE0MmxNMzlGdUdlTHBHOGFYZ05xU2R2c2oyUnZfUm95akFMZVdXZ05hblZIRWlSbXhwYVlTeTVlWnlkNXA5ZDhBdU11Wmc0bjhLbmVWNnAzU09WLWIw?oc=5",
+      "published": "Fri, 12 Jun 2026 15:14:00 GMT",
+      "query": "2026 FIFA World Cup weather heat humidity venues"
+    },
+    {
+      "title": "These World Cup games are most at risk for dangerously hot weather - NPR",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTmlkVmpQYVZfWV9PRS12SG80dWlCeFlzUmd2RF9kdHJHcW1UbHdRd0xjZm9tZDVtNFI5YnhTb3dCZ1JmbFNET3ZxeXJmT2dkdlQ5TFBWengxSFJjVUs4am9XVWVSODJRQnFVQS1YMkl5QVRRUGxDbzd3aWFZdndJWlg0VDY3cndfd192U2UzZ1pGek5p?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "query": "2026 FIFA World Cup weather heat humidity venues"
+    },
+    {
+      "title": "World Cup 2026 weather updates: Forecasts for key matches, stadium conditions and fan impacts - AccuWeather",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPd0loYnFQYVJtczlFNmdYWmtBei1lZmFKY0NKZnlpcng2bEJOZ2h4TUVycDhMT2Q5THdEZjNWVnZTbndPVWpCRzdpTU1ER2U2VHNqak95dklmd3l2ak9BNTQ0dEZqYzB6Y0JFM2QxdnVJaURKZVlJOXUzNk51ZC1GaXhXYURTd3NUN0N5RHN5ZGlDbk1WOG1hdE8yY3BIMEtmSE9QSEJHQzJGV2xEM29IaTNYT2lkRnItQ2hXUEh3T2ZwOHlRaW9BNXRmSFQ0c0xMb3JjbFdtaE9LQ24wUmRUVA?oc=5",
+      "published": "Wed, 10 Jun 2026 14:03:53 GMT",
+      "query": "2026 FIFA World Cup weather heat humidity venues"
+    },
+    {
+      "title": "Sweden 2026 World Cup preview: Squad breakdown, key player, and tactical analysis - World Soccer Talk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTWhueTFmV29nZXRNSllMOEcyU1FqcE5jajZZTGVqQ0o0NE4yblQ5SEJGSW5BN0kxVXpmTWI4Q2s2R0loTEFQX0FKUjR3NDBhWERjd0lzN1JVTEhOLWdTaWg5R0ZPLS0tajlBV004OGxmZUk2TFhDbFNlcGpqQUdMVnlmQ2FaUTFJZ0RtVkprRHlCMTc5bnZ2S3hvTjk3U3lsQ1I4TDdKSGdmU3hvRFJxaklvOE9KbGRz0gG8AUFVX3lxTE1JYkRqVmZ1NG5ORG41RTdGZE1nNGxYbTM0cXNmTzJiTTE0d2VFWENGd21mc3N2M2padWlUSHBWQjVMZzNsYUdSUGkzMkNfVDhBQjcxTm5KTDdGN1B3X3o1WWR5ZFZ1ajZjQWlEM2lHY0NiNkVwLTFoZzJIQlJLNWRNekY3WmQzRi1IcnNPZUwxTDc0aExFMDgyOFEwNDNscXJEY09wbDhXcGxDdHVPd0pXOHFuYVNjbXZyYXBC?oc=5",
+      "published": "Sun, 14 Jun 2026 21:51:51 GMT",
+      "query": "2026 FIFA World Cup tactical preview teams"
+    },
+    {
+      "title": "FIFA World Cup 2026 group stage preview: Tactical analysis and predictions - OneFootball",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSHRjbEFWYnRDNkI0SFE3a3Z3VnVyMkZieGp6cFRKcDZmM2lVU0NSUjVPNE9fbnRiUW5MZXBPeXB1MWtKRm1HX2JsajI4b09Xa0RJNFFvTFZJYnM0VUlOOHVkLXhCaXR2T3Y4cDhDeEE1X2owU0tmLWZVVkc3OUZwbWZidlBfa21MSjhLWjloWkZlMHVZcnNhaFdSY3MwbkdxM0xaZWcwcVk4OElWd08wRTVMcm0?oc=5",
+      "published": "Sun, 14 Jun 2026 22:00:00 GMT",
+      "query": "2026 FIFA World Cup tactical preview teams"
+    },
+    {
+      "title": "Spain vs Cape Verde Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group H - RotoWire",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOEdEUTNZRzNjZHZkc3U0bGxlMnpWUzFQVDBWLW9SRWVxd0w2QXZ5UUg0c3pDQ0tCTTJGVk5LRnA2TFNiejlucm10cTVXWlhlQVRSTThXZFdYR2k1RDRQN0VSdzVtTlVORlhpMGlZSjJteEw3OXd6Qms1T1lvbEx1SkJ2dTRvRDU2eW96dkNlNUNibTNOYjVmbUtZd0JHbHRENFhZanFndUpCN1l6Vnk3eHFRVVQxaWRyQnBnYUg2SDJOUW1ROHRIZ3hEMnJTV2h1SVFNYnFHZWtSVnM?oc=5",
+      "published": "Mon, 15 Jun 2026 07:48:26 GMT",
+      "query": "2026 FIFA World Cup tactical preview teams"
+    },
+    {
+      "title": "World Cup Group B tactical guide: Canada\u2019s energy, Swiss fluidity, and can Bosnia or Qatar make history? - The Athletic - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM0IxcW5TZlJmU2Q1TDNlVlB2OV9MS0hnY09JTmVmZHJMM3psbkhneWw3Ym5iNDVnci1PMkduSmlmLUgwaUFla21yOFI2ZElhMHNZSmJNaEU2Q200T1kyWFBndDVodEhfNk5oc2FGbmxLYjJPVnNnQmRoYmxJOVNnY2tPT3RzaHZERDQ1U1hYZ1Z4Ty1I?oc=5",
+      "published": "Sat, 13 Jun 2026 03:56:00 GMT",
+      "query": "2026 FIFA World Cup tactical preview teams"
+    }
+  ],
+  "polymarket": [
+    {
+      "status": "fallback-required",
+      "title": "Polymarket API unavailable for World Cup query",
+      "url": "https://gamma-api.polymarket.com/markets?search=2026+FIFA+World+Cup+winner+odds&limit=8",
+      "note": "empty API response"
+    },
+    {
+      "status": "fallback-required",
+      "title": "Manual check: World Cup winner market",
+      "url": "https://polymarket.com/event/world-cup-winner",
+      "note": "Open this page and capture title, timestamp, liquidity/volume, prices, and normalized probabilities."
+    },
+    {
+      "status": "fallback-required",
+      "title": "Manual check: World Cup team advancement markets",
+      "url": "https://polymarket.com/search?query=World%20Cup%20advance",
+      "note": "Use only liquid markets; mark low-liquidity or zero-volume props as stale."
+    },
+    {
+      "status": "fallback-required",
+      "title": "Manual check: World Cup match moneylines",
+      "url": "https://polymarket.com/search?query=World%20Cup%20moneyline",
+      "note": "For match odds, compare against bookmaker snapshots before adjusting probabilities."
+    }
+  ],
+  "weather": [
+    {
+      "city": "Atlanta",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "max_temp_c_next_7d": 33.5,
+      "max_precip_probability_next_7d": 74,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=33.749&longitude=-84.38798&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "timezone": "America/New_York",
+      "max_temp_c_next_7d": 28.6,
+      "max_precip_probability_next_7d": 55,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=42.35843&longitude=-71.05977&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Dallas",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "max_temp_c_next_7d": 34.5,
+      "max_precip_probability_next_7d": 50,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=32.78306&longitude=-96.80667&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "max_temp_c_next_7d": 27.2,
+      "max_precip_probability_next_7d": 98,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=20.67738&longitude=-103.34749&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "max_temp_c_next_7d": 34.7,
+      "max_precip_probability_next_7d": 69,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=29.76328&longitude=-95.36327&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Kansas City",
+      "country": "United States",
+      "timezone": "America/Chicago",
+      "max_temp_c_next_7d": 32.2,
+      "max_precip_probability_next_7d": 49,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=39.09973&longitude=-94.57857&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Los Angeles",
+      "country": "United States",
+      "timezone": "America/Los_Angeles",
+      "max_temp_c_next_7d": 29.1,
+      "max_precip_probability_next_7d": 0,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=34.05223&longitude=-118.24368&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    },
+    {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "timezone": "America/Mexico_City",
+      "max_temp_c_next_7d": 23.9,
+      "max_precip_probability_next_7d": 100,
+      "source": "https://api.open-meteo.com/v1/forecast?latitude=19.42847&longitude=-99.12766&daily=temperature_2m_max%2Cprecipitation_probability_max&forecast_days=7&timezone=auto"
+    }
+  ],
+  "odds": [
+    {
+      "status": "missing ODDS_API_KEY",
+      "note": "Bookmaker odds not fetched."
+    }
+  ]
+}

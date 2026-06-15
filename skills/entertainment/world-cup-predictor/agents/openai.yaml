@@ -1,0 +1,4 @@
+interface:
+  display_name: "World Cup Predictor"
+  short_description: "Forecast World Cup matches live"
+  default_prompt: "Use $world-cup-predictor to forecast the World Cup with subagents, market odds, Polymarket, news, tactical analysis, and a live dashboard."

@@ -1,0 +1,12 @@
+{
+  "updated_at": "2026-06-15T08:30:31.046105+00:00",
+  "stage": "tournament-complete",
+  "message": "Full World Cup forecast published: Spain over England",
+  "progress": 1,
+  "featured": {
+    "matches": 104,
+    "champion": "Spain"
+  },
+  "complete": true,
+  "error": false
+}

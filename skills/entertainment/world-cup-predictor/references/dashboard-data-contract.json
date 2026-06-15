@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Cup Dashboard Prediction Data",
+  "type": "object",
+  "required": ["updated_at", "mode", "matches", "groups", "outrights"],
+  "properties": {
+    "updated_at": { "type": "string" },
+    "mode": { "type": "string", "examples": ["agent-native-subagents", "llm-live-prediction"] },
+    "predicted_champion": { "type": ["string", "null"] },
+    "simulation": {
+      "type": "object",
+      "properties": {
+        "runs": { "type": "integer" },
+        "model": { "type": "string" },
+        "method": { "type": "string" }
+      }
+    },
+    "matches": {
+      "description": "Complete tournament path: 72 group-stage matches plus 32 knockout matches for the 2026 format.",
+      "type": "array",
+      "items": { "$ref": "./prediction-schema.json" }
+    },
+    "locked_results_count": { "type": "integer" },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["group", "table"],
+        "properties": {
+          "group": { "type": "string" },
+          "table": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["team", "advance_probability"],
+              "properties": {
+                "team": { "type": "string" },
+                "advance_probability": { "type": "number", "minimum": 0, "maximum": 1 },
+                "reason": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "outrights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["team", "probability"],
+        "properties": {
+          "team": { "type": "string" },
+          "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "narrative": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
