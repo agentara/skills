@@ -8,6 +8,41 @@ compatibility: Requires an image-generation tool. Web access is helpful when exa
 
 Create a premium Gunpla model-photography poster that feels like an official high-end Gundam collector catalog page.
 
+## Bundled visual references
+
+The four bundled images are composition references, not mobile-suit identity references. Give each image a stable ID so the orchestration model can select it before calling the image model:
+
+| Reference ID | File | Use for | Composition cues |
+| --- | --- | --- | --- |
+| `BUST-01` | `references/bust-portrait.png` | Bust or half-body portrait | Tight head-and-chest crop, three-quarter face, subject on the left, technical panel on the right |
+| `FULL-01` | `references/full-body-weapon-showcase.png` | Grounded full-body pose with a lean or angular silhouette, especially with a long weapon | Entire figure visible, slight three-quarter stance, weapon clearly separated from the body, generous studio space |
+| `ACTION-01` | `references/support-stand-combat-pose.png` | Airborne or support-stand combat pose | Visible transparent base and support arm, dynamic articulated silhouette, all remote equipment and weapons kept in frame |
+| `FULL-02` | `references/full-body-neutral-showcase.png` | Grounded full-body pose with a bulky, stocky, shield-heavy, or strongly symmetrical silhouette | Entire figure visible, weighty frontal stance, large armor and shield remain readable |
+
+### Reference-selection procedure
+
+After `framing` and `pose` are known, derive one internal field named `visual_reference`. Do not ask the user to choose a reference ID. Apply this decision tree in order and stop at the first match:
+
+1. If `framing` is Bust portrait or Half body, select `BUST-01`.
+2. If the pose is Support-stand combat pose, or the user explicitly requests airborne, flying, jumping, lunging, funnel deployment, a visible support arm, or a display base holding the model off the ground, select `ACTION-01`.
+3. For a grounded Full body pose, select `FULL-02` when the selected mobile suit is bulky or stocky, has very large armor, a dominant shield, or a mostly frontal symmetrical presentation.
+4. For every other grounded Full body pose, select `FULL-01`. This is the default full-body reference when the silhouette does not clearly favor `FULL-02`.
+
+The word “combat” alone does not imply `ACTION-01`: use `ACTION-01` only when the pose is airborne or visibly supported. A grounded ready or combat stance still routes to `FULL-01` or `FULL-02`.
+
+Routing examples:
+
+- Bust portrait + any pose → `BUST-01` → `references/bust-portrait.png`
+- Full body + grounded ready stance + Gundam Barbatos with its long mace → `FULL-01` → `references/full-body-weapon-showcase.png`
+- Full body + neutral standing + Sazabi with its bulky armor and shield → `FULL-02` → `references/full-body-neutral-showcase.png`
+- Full body + airborne funnel-deployment pose on a clear arm → `ACTION-01` → `references/support-stand-combat-pose.png`
+
+Select exactly one bundled composition reference. Using one image makes the intended crop and pose unambiguous to the image model. Resolve its path relative to the directory containing this `SKILL.md`, then pass the resolved absolute path to the image-generation tool as the only bundled item in `referenced_image_paths`.
+
+If the user also supplied an image that must define the mobile suit's identity, pass the user image first and the selected bundled composition reference second. In that case, label them explicitly in the prompt as `Image 1 — identity` and `Image 2 — composition`. Otherwise, label the single bundled image as `Image 1 — composition`.
+
+Use the selected reference only for framing, pose family, studio spacing, lighting hierarchy, and technical-panel placement. Preserve the user's selected mobile suit and never transfer the reference image's armor, colors, weapons, markings, logos, text, or specifications.
+
 ## Language behavior
 
 Write this workflow's user-facing questions, option labels, brief explanations, and final response in the language the user is currently using. If the user changes language, follow the language used in their latest message. Keep proper nouns, model numbers, grades, and official product or mobile-suit names in their canonical form when appropriate.
@@ -23,6 +58,8 @@ Collect these five fields in order:
 3. `pose`
 4. `environment`
 5. `aspect_ratio`
+
+After the five user-facing fields are complete, derive `visual_reference` using the reference-selection procedure above. This is internal state, not a sixth interview question.
 
 Ask exactly one unanswered question per turn and wait for the user's answer before asking the next one. Briefly acknowledge the selection, then ask the next question. Do not show later questions early.
 
@@ -66,10 +103,11 @@ Ask the user to choose one:
 - Neutral standing — default; calm, authoritative museum-display stance
 - Heroic standing — chest slightly lifted with a stronger three-quarter turn
 - Ready stance — restrained combat readiness without an action-scene look
+- Support-stand combat pose — airborne articulated action on a visible transparent display stand
 - Angled showcase — subtle torso and shoulder rotation designed for model photography
 - Custom pose — let the user describe it
 
-Keep the pose physically plausible for a premium articulated scale model. Avoid exaggerated animation, floating, or action-scene effects unless the user explicitly requests them.
+Keep the pose physically plausible for a premium articulated scale model. A support-stand combat pose may be dynamic, but it should still look like a photographed articulated kit: show a plausible clear base/support arm, preserve joint limits, and keep the silhouette readable. Avoid unsupported floating or cinematic action-scene effects unless the user explicitly requests them.
 
 ### Question 4 — Environment
 
@@ -111,6 +149,7 @@ Adapt the composition to the selected framing:
 - For a bust portrait, use a three-quarter facial angle and emphasize the head, V-fin or antenna, faceplate, eyes, chest armor, shoulder armor, panel separation, and mechanical detail.
 - For a half-body portrait, preserve the head-and-torso emphasis while showing the waist and arm articulation clearly.
 - For a full-body portrait, keep the entire model legible, preserve realistic model proportions, and avoid making it resemble a full-scale robot or a game render.
+- For a support-stand combat pose, keep the clear display base and support arm visibly connected, frame all major equipment without edge collisions, and retain enough negative space for the technical-information panel.
 
 ## Canonical accuracy
 
@@ -158,6 +197,9 @@ After collecting all five answers, construct a self-contained English prompt usi
 ```text
 Create a premium collectible Gunpla model-photography poster of [MOBILE SUIT / EXACT KIT], in [ASPECT RATIO].
 
+REFERENCE USAGE
+[REFERENCE LABEL AND ID]. Use the selected composition reference only for [CROP / POSE FAMILY / STUDIO SPACING / LIGHTING / RIGHT-SIDE INFORMATION-PANEL PLACEMENT]. Do not copy the depicted mobile suit's identity, armor, colors, weapons, markings, text, logos, or specifications. The subject must remain [MOBILE SUIT AND VARIANT].
+
 SUBJECT AND ACCURACY
 Faithfully reproduce the canonical official design of [MOBILE SUIT AND VARIANT]: exact head, V-fin or antenna, faceplate, eyes, chest armor, shoulder armor, vents, color blocking, emblems, and signature mechanical structures. Do not redesign, kitbash, or mix elements from any other mobile suit. Present it as a meticulously assembled [GRADE / COLLECTOR INTERPRETATION] scale model, not a full-scale robot.
 
@@ -179,9 +221,16 @@ No original redesign, no kitbash, no parts from other mobile suits, no incorrect
 
 Make the prompt concrete rather than leaving bracketed placeholders. Include only verified technical facts.
 
+Fill `REFERENCE USAGE` with the selected ID and its intended role. For example, when `ACTION-01` is selected and no user identity image is present:
+
+```text
+REFERENCE USAGE
+Image 1 — composition reference ACTION-01. Use it for the airborne articulated pose, visible transparent support base and arm, equipment spacing, neutral-gray studio lighting, and right-side information-panel placement only. Do not copy the depicted Nu Gundam identity, armor, colors, weapons, markings, text, logos, or specifications. The subject must remain MG Gundam Barbatos.
+```
+
 ## Generation and delivery
 
-Use the available image-generation tool once the prompt is ready. If the tool supports an explicit aspect ratio parameter, set it to the user's selection; otherwise state the ratio prominently at the start and end of the prompt.
+Use the available image-generation tool once the prompt is ready. Include the selected reference according to the `referenced_image_paths` contract above; do not silently generate without it when local-image referencing is available. If the tool supports an explicit aspect ratio parameter, set it to the user's selection; otherwise state the ratio prominently at the start and end of the prompt.
 
 Return the generated image with a short caption in the user's current language. Mention the chosen mobile suit, framing, pose, environment, and aspect ratio. Do not expose the entire internal prompt unless the user asks for it.
 
