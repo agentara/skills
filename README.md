@@ -12,6 +12,7 @@ A personal library of Claude Code skills — installable prompt extensions that 
 AI-generated content tools for image stylization, video planning, visual continuity, storyboards, and key art.
 
 - **[presentation-design](skills/aigc/presentation-design/SKILL.md)** — Plan and generate a premium 6-slide presentation design board as one single composite image, with a named layout library and light/dark style modes.
+- **[gunpla-poster](skills/aigc/gunpla-poster/SKILL.md)** — Create premium collectible Gunpla model-photography posters through a guided interview covering the mobile suit, framing, pose, environment, and aspect ratio.
 - **[soviet-storybook-grotesque](skills/aigc/soviet-storybook-grotesque/SKILL.md)** — Transform photos into strange, rough, faded Eastern European children's book illustrations with absurd handwritten rhymes.
 - **[torn-paper-collage-poster](skills/aigc/torn-paper-collage-poster/SKILL.md)** — Create torn-paper editorial collage poster prompts and image workflows with layered ripped paper, rough typography, stamps, tape, stickers, and photocopy texture.
 - **[video-character-design](skills/aigc/video-character-design/SKILL.md)** — Create reusable character design specs and character sheets for video, storyboard, advertising, animation, or AI video-generation workflows.
