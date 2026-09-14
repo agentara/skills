@@ -2,6 +2,7 @@
 
 AI-generated content tools for image stylization, video planning, visual design, and production assets.
 
+- **[portrait-clone](portrait-clone/SKILL.md)** - Turn any n reference images (with at least one person) into one exhaustively locked, always de-slopped, JSON-only AIGC image prompt whose every variable is pinned so each generation is nearly identical. Use for replicating a person's look, extracting portrait features into a prompt, locking a character, or revising such a JSON after comparing a generated image to the reference.
 - **[presentation-design](presentation-design/SKILL.md)** — Plan and generate a premium 6-slide presentation design board as one single composite image, with a named layout library, light/dark style modes, mandatory deck plan, and self-reflection on the rendered result.
 - **[gunpla-poster](gunpla-poster/SKILL.md)** — Create premium collectible Gunpla model-photography posters through a guided, language-aware interview covering the mobile suit, framing, pose, environment, and aspect ratio.
 - **[soviet-storybook-grotesque](soviet-storybook-grotesque/SKILL.md)** — Transform photos into strange, rough, faded Eastern European children's book illustrations with absurd handwritten rhymes.
